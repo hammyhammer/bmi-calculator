@@ -1,5 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import MetricSystem from './components/MetricSystem';
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<div>Adult BMI Calculator</div>} />
         <Route path="/imperial" element={<div>Imperial input page</div>} />
-        <Route path="/metric" element={<div>Metric input page</div>} />
+        <Route path="/metric" element={<MetricSystem />} />
         <Route path="/results/:id" element={<div>Results Page</div>} />
         <Route path="/why-bmi" element={<div>Why BMI Page</div>} />
       </Routes>
