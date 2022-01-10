@@ -17,8 +17,8 @@ export default function ResultsPage() {
   return (
     <div>
       THIS IS THE RESULTS PAGE
-      <h2>BMI: {sum.fields?.calculation}%</h2>
-      <h2>Category: {sum.fields?.category}</h2>
+      <h3>BMI: {sum.fields?.calculation}%</h3>
+      <h4>Category: {sum.fields?.category}</h4>
       <Link to={`/results/${id}`}></Link>
     </div>
   )
