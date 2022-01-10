@@ -1,10 +1,11 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MetricSystem from './components/MetricSystem';
 import ResultsPage from './components/ResultsPage';
 import './App.css';
 
 function App() {
+  const { id } = useParams();
 
   // console.log(process.env.REACT_APP_AIRTABLE_BASE);
   // console.log(process.env.REACT_APP_AIRTABLE_KEY);

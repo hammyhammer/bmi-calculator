@@ -11,19 +11,20 @@ const default_input = {
 export default function MetricSystem() {
   const [input, setInput] = useState(default_input);
 
-  const { id } = useParams();
+  // const { id } = useParams();
 
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post(`/results/${res.data.id}`, { fields })
+    const res = await api.post("", { fields })
     console.log(res.data)
     setInput(default_input)
     navigate(`/results/${res.data.id}`)
   }
-
+  // tried doing /results/${id} for lines 24 and 21
+  //
   const handleMetricInput = (event) => {
     const { id, valueAsNumber } = event.target
     setInput(prevInput => ({
