@@ -109,10 +109,10 @@ This web application allows a user to determine their BMI. The user can select b
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|Create API|H| 2.5hrs|NA|NA|
+|Create API|H| 2.5hrs|3hrs|3hrs|
 |Create Navbar|H|1hr|NA|NA|
-|Create API component|H|1hr|NA|NA|
-|Hide API information|H|0.5hr|NA|NA|
+|Create API component|H|1hr|0.5hr|0.5hr|
+|Hide API information|H|0.5hr|0.5hr|0.5hr|
 |Create get functionality|H|1hr|NA|NA|
 |Create Imperial System|H|3hrs|NA|NA|
 |Create Metric System|H|3hrs|NA|NA|

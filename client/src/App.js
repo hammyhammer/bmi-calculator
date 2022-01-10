@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { Link, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<div>Adult BMI Calculator</div>} />
+        <Route path="/imperial" element={<div>Imperial input page</div>} />
+        <Route path="/metric" element={<div>Metric input page</div>} />
+        <Route path="/results/:id" element={<div>Results Page</div>} />
+        <Route path="/why-bmi" element={<div>Why BMI Page</div>} />
+      </Routes>
+
+      <Link to="/imperial">
+        <button>Imperial</button>
+      </Link>
+      <Link to="/metric">
+        <button>Metric</button>
+      </Link>
     </div>
+
   );
 }
 
