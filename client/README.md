@@ -62,7 +62,7 @@ This web application allows a user to determine their BMI. The user can select b
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
+<!-- The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.   -->
 
 #### MVP 
 <!-- *These are examples only. Replace with your own MVP features.* -->
@@ -77,6 +77,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 - Create a Why BMI? Page. To provide more information to user
 - Create a Navbar with the appropriate routes
 - Stylize the pages with flex.
+- Create references within the information
 
 
 #### PostMVP  
@@ -85,16 +86,15 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 - To somehow have it so it is posted one at a time. So the results page does not get bloated. 
 - For the imperial input, create an input that takes x(foot) y
 - Add a loading animation
--Create references within the information
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
+<!-- This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example. -->
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|January 8-10| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|January 10| Project Approval | Incomplete
+|January 8-10| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|January 10| Project Approval | Complete
 |January 11| Core Application Structure, foundational stylizing, render api | Incomplete
 |January 12| Input functionality| Incomplete
 |January 13| Styling/media query  | Incomplete
@@ -103,9 +103,9 @@ This schedule will be used to keep track of your progress throughout the week an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+<!-- Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. -->
 
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
+<!-- Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly. -->
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -131,7 +131,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Media query|H|3hrs|NA|NA|
 |Create intuitive Imperial input|L|3.5hrs|NA|NA|
 |Utilize loading animation|L|2hrs|NA|NA|
-|Create a one time submissive|L|3.5hrs|NA|NA|
+|Create local storage|L|3.5hrs|NA|NA|
 |Create references in information|L|3.5|NA|NA|
 | Total|H|51hrs|NA|NA|
 
