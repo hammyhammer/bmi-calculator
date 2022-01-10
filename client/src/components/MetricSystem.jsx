@@ -1,25 +1,27 @@
 import api from '../services/apiConfig';
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import FormMetric from './FormMetric'
-
+// trying Params
 const default_input = {
   weight: 0,
   height: 0,
 }
 
 export default function MetricSystem() {
-  const [input, setInput] = useState(default_input)
+  const [input, setInput] = useState(default_input);
+
+  const { id } = useParams();
 
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("/", { fields })
+    const res = await api.post(`/results/${res.data.id}`, { fields })
     console.log(res.data)
     setInput(default_input)
-    navigate(`/results`)
+    navigate(`/results/${res.data.id}`)
   }
 
   const handleMetricInput = (event) => {

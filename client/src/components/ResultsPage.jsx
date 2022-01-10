@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import api from "../services/apiConfig"
 
 export default function ResultsPage() {
@@ -8,7 +8,7 @@ export default function ResultsPage() {
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/${id}`)
+      const res = await api.get(`/${id}`) //`/${id}`
       setSum(res.data)
     }
     fetchSum();
@@ -19,6 +19,8 @@ export default function ResultsPage() {
       <h2>{sum.fields?.weight}</h2>
       <h2>{sum.fields?.calculation}</h2>
       <h2>{sum.fields?.category}</h2>
+      <Link to={`/results/${id}`}></Link>
     </div>
   )
 }
+// Link is a new try
