@@ -1,5 +1,6 @@
 import api from '../services/apiConfig';
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import FormMetric from './FormMetric'
 
 const default_input = {
@@ -9,6 +10,8 @@ const default_input = {
 
 export default function MetricSystem() {
   const [input, setInput] = useState(default_input)
+
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
