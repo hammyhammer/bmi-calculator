@@ -1,10 +1,9 @@
-import { type } from '@testing-library/user-event/dist/type'
 import React from 'react'
 
 export default function Form(props) {
   const { weight, height } = props.input
 
-  return <form>
+  return <form onSubmit={props.handleSubmit}>
     <br />
     <input id="weight" value={weight} type="number" placeholder="kilograms" onChange={props.handleMetricInput} />
     <label>Kilograms</label>
