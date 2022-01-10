@@ -6,15 +6,16 @@ BMI Calculator
 
 ## Project Description
 
-This web application allows a user to determine their BMI. After entering it, they will be shown their results and how to interpret them and its significance. 
+This web application allows a user to determine their BMI. The user can select between Imperial or Metric system of measurements to input their values. After entering it, they will be shown their results and how to interpret them and its significance. The application will offer further insight with references and resources. 
 
 ## Wireframes
 
 <!-- Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe. -->
+[Here](https://whimsical.com/bmi-calculator-9aqjBs6qNhzLkJGxnhQvn9) is a link that will direct you to my vision for both my browser and mobile look of this application. 
 
 ## Component Hierarchy
 <!-- Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example. -->
-
+[Here](https://whimsical.com/bmi-component-hierarchy-VmLjp5FZY844kytW2SzW2o) is a link that shows us our component hierarchy.
 
 ## API and Data Sample
 
@@ -64,7 +65,7 @@ This web application allows a user to determine their BMI. After entering it, th
 The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
+<!-- *These are examples only. Replace with your own MVP features.* -->
 
 - Create and use external API
 - Create get functionality to render data into components
@@ -79,7 +80,7 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+<!-- *These are examples only. Replace with your own Post-MVP features.* -->
 
 - To somehow have it so it is posted one at a time. So the results page does not get bloated. 
 - For the imperial input, create an input that takes x(foot) y
@@ -94,9 +95,9 @@ This schedule will be used to keep track of your progress throughout the week an
 |---|---| ---|
 |January 8-10| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |January 10| Project Approval | Incomplete
-|January 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|January 12| Pseudocode / actual code | Incomplete
-|January 13| Initial Clickable Model  | Incomplete
+|January 11| Core Application Structure, foundational stylizing, render api | Incomplete
+|January 12| Input functionality| Incomplete
+|January 13| Styling/media query  | Incomplete
 |January 14| MVP | Incomplete
 |January 18| Presentations | Incomplete
 
@@ -120,7 +121,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Adding Form|H|3hrs|NA|NA|
 |Handle submit functionality|H|1hr|NA|NA|
 |Input functionality|H|1.5hrs|NA|NA|
-|Create Post functionality|1hr|NA|NA|
+|Create Post functionality|H|1hr|NA|NA|
 |Create Why BMI? page|H|2hrs|NA|NA|
 |Add Linkedin and Git icons|M|1.5hrs|NA|NA|
 |Add title for page and tab icon|M|1.5hrs|NA|NA
