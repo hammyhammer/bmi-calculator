@@ -4,11 +4,11 @@ import api from "../services/apiConfig"
 
 export default function ResultsImperial() {
   const [sum, setSum] = useState({})
-  const { id } = useParams
+  const { id } = useParams();
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/${id}`)
+      const res = await api.get(`/imperial/${id}`)
       setSum(res.data)
     }
     fetchSum();

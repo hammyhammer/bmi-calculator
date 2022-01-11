@@ -16,7 +16,7 @@ export default function MetricSystem() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields })
+    const res = await api.post("/calculator", { fields })
     console.log(res.data)
     setInput(default_input)
     navigate(`/metric-results/${res.data.id}`)

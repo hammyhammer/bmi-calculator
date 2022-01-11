@@ -15,7 +15,7 @@ export default function ImperialSystem() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields })
+    const res = await api.post("/imperial", { fields })
     console.log(res.data)
     setInput(default_input)
     navigate(`/imperial-results/${res.data.id}`)
