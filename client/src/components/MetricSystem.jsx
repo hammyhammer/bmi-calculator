@@ -2,9 +2,9 @@ import api from '../services/apiConfig';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import FormMetric from './FormMetric'
-// trying Params
+
 const default_input = {
-  weight: 0,
+  weightMetric: 0,
   height: 0,
 }
 
