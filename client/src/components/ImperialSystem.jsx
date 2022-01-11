@@ -17,7 +17,7 @@ export default function ImperialSystem() {
     setInput(default_input)
   }
 
-  const handleMetricInput = (event) => {
+  const handleImperialInput = (event) => {
     const { id, valueAsNumber } = event.target;
     setInput(prevInput => ({
       ...prevInput,
