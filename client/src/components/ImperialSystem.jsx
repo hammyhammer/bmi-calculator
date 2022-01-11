@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import api from '../services/apiConfig'
+import FormImperial from './FormImperial';
 
 export default function ImperialSystem() {
   const default_input = {
@@ -26,8 +27,11 @@ export default function ImperialSystem() {
   };
   return (
     <div>
-
-
+      <FormImperial input={input}
+        handleSubmit={handleSubmit}
+        handleImperialInput={handleImperialInput}
+        type={"Sumbit"}
+      />
     </div>
   )
 }
