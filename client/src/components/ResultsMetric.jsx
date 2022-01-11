@@ -16,9 +16,9 @@ export default function ResultsPage() {
 
   return (
     <div>
-      THIS IS THE ***METRIC*** RESULTS PAGE
-      <h3>BMI: {sum.fields?.calculationMetric}%</h3>
-      <h4>Category: {sum.fields?.categoryMetric}</h4>
+      <h1>Your Results</h1>
+      <h5>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%. <br />
+        With a BMI of {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%, you are placed in the {sum.fields?.categoryMetric} category.</h5>
       <Link to={`/metric-results/${id}`}></Link>
     </div>
   )

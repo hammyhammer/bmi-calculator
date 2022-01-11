@@ -18,8 +18,8 @@ export default function ResultsImperial() {
   return (
     <div>
       <h1>Your Results</h1>
-      <h5>Your BMI is calculated to {sum.fields?.calculationImperial}%. <br />
-        With a BMI of {sum.fields?.calculationImperial}%, you are placed in the {sum.fields?.categoryImperial} category.</h5>
+      <h5>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationImperial).toFixed(2)}%. <br />
+        With a BMI of {Number.parseFloat(sum.fields?.calculationImperial).toFixed(2)}%, you are placed in the {sum.fields?.categoryImperial} category.</h5>
       <Link to={`/imperial-results/${id}`}></Link>
     </div>
   )
