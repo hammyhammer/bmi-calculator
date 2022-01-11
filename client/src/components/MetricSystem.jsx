@@ -19,7 +19,7 @@ export default function MetricSystem() {
     const res = await api.post("", { fields })
     console.log(res.data)
     setInput(default_input)
-    navigate(`/results/${res.data.id}`)
+    navigate(`/metric-results/${res.data.id}`)
   }
 
   const handleMetricInput = (event) => {

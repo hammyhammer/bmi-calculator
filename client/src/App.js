@@ -17,7 +17,8 @@ function App() {
         <Route path="/" element={<div>Adult BMI Calculator</div>} />
         <Route path="/imperial" element={<ImperialSystem />} />
         <Route path="/metric" element={<MetricSystem />} />
-        <Route path="/results/:id" element={<ResultsMetric />} />
+        <Route path="/metric-results/:id" element={<ResultsMetric />} />
+        <Route path="/imperial-results/:id" element={<div>Imperial results</div>} />
         <Route path="/why-bmi" element={<div>Why BMI Page</div>} />
       </Routes>
 

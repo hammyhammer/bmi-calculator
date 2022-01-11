@@ -19,7 +19,7 @@ export default function ResultsPage() {
       THIS IS THE RESULTS PAGE
       <h3>BMI: {sum.fields?.calculationMetric}%</h3>
       <h4>Category: {sum.fields?.categoryMetric}</h4>
-      <Link to={`/results/${id}`}></Link>
+      <Link to={`/metric-results/${id}`}></Link>
     </div>
   )
 }
