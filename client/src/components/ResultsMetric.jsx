@@ -16,7 +16,7 @@ export default function ResultsPage() {
 
   return (
     <div>
-      THIS IS THE RESULTS PAGE
+      THIS IS THE ***METRIC*** RESULTS PAGE
       <h3>BMI: {sum.fields?.calculationMetric}%</h3>
       <h4>Category: {sum.fields?.categoryMetric}</h4>
       <Link to={`/metric-results/${id}`}></Link>

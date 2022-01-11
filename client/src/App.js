@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import MetricSystem from './components/MetricSystem';
 import ResultsMetric from './components/ResultsMetric';
 import ImperialSystem from './components/ImperialSystem';
+import ResultsImperial from './components/ResultsImperial';
+
 import './App.css';
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
         <Route path="/imperial" element={<ImperialSystem />} />
         <Route path="/metric" element={<MetricSystem />} />
         <Route path="/metric-results/:id" element={<ResultsMetric />} />
-        <Route path="/imperial-results/:id" element={<div>Imperial results</div>} />
+        <Route path="/imperial-results/:id" element={<ResultsImperial />} />
         <Route path="/why-bmi" element={<div>Why BMI Page</div>} />
       </Routes>
 
