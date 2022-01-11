@@ -1,15 +1,20 @@
 import React from 'react'
 
-export default function FormImperial() {
-  const { weight, height } = props.input
+export default function FormImperial(props) {
+  const { weightImperial, heightImperial } = props.input
 
   return (
     <div>
+      <br />
       <form onSubmit={props.handleSubmit}>
+        <input id="weightImperial" value={weightImperial} type="number" placeholder="pounds" onChange={props.handleImperialInput} />
         <label>weight</label>
-        <input id="weight" value={weight} type="number" placeholder="inches" onChange={props.handleImperialInput} />
         <br />
-        <input id="height" value={height} type="number" onChange={props.handleImperialInput} />
+        <br />
+        <input id="heightImperial" value={heightImperial} type="number" placeholder="inches" onChange={props.handleImperialInput} />
+        <label>height</label>
+        <br />
+        <button>{props.type}</button>
       </form>
     </div>
   )

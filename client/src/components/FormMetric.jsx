@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Form(props) {
-  const { weightMetric, height } = props.input
+  const { weightMetric, heightMetric } = props.input
 
   return <form onSubmit={props.handleSubmit}>
     <br />
@@ -9,7 +9,7 @@ export default function Form(props) {
     <label>Kilograms</label>
     <br />
     <br />
-    <input id="height" value={height} type="number" placeholder="centimeters" onChange={props.handleMetricInput} />
+    <input id="heightMetric" value={heightMetric} type="number" placeholder="centimeters" onChange={props.handleMetricInput} />
     <label>Centimeters</label>
 
     <br />

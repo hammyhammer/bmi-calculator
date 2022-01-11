@@ -2,6 +2,7 @@ import { Link, Route, Routes, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MetricSystem from './components/MetricSystem';
 import ResultsPage from './components/ResultsPage';
+import ImperialSystem from './components/ImperialSystem';
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<div>Adult BMI Calculator</div>} />
-        <Route path="/imperial" element={<div>Imperial input page</div>} />
+        <Route path="/imperial" element={<ImperialSystem />} />
         <Route path="/metric" element={<MetricSystem />} />
         <Route path="/results/:id" element={<ResultsPage />} />
         <Route path="/why-bmi" element={<div>Why BMI Page</div>} />

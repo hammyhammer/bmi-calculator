@@ -5,7 +5,7 @@ import FormMetric from './FormMetric'
 
 const default_input = {
   weightMetric: 0,
-  height: 0,
+  heightMetric: 0,
 }
 
 export default function MetricSystem() {
