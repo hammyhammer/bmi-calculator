@@ -1,4 +1,4 @@
-import { Link, Route, Routes, useParams } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MetricSystem from './components/MetricSystem';
 import ResultsMetric from './components/ResultsMetric';
@@ -8,10 +8,7 @@ import ResultsImperial from './components/ResultsImperial';
 import './App.css';
 
 function App() {
-  const { id } = useParams();
 
-  // console.log(process.env.REACT_APP_AIRTABLE_BASE);
-  // console.log(process.env.REACT_APP_AIRTABLE_KEY);
   return (
     <div className="App">
       <Navbar />

@@ -17,9 +17,9 @@ export default function ResultsImperial() {
 
   return (
     <div>
-      THIS IS THE ***IMPERIAL** RESULTS PAGE
-      <h3>BMI: {sum.fields?.calculationImperial}%</h3>
-      <h4>Category: {sum.fields?.categoryImperial}</h4>
+      <h1>Your Results</h1>
+      <h5>Your BMI is calculated to {sum.fields?.calculationImperial}%. <br />
+        With a BMI of {sum.fields?.calculationImperial}%, you are placed in the {sum.fields?.categoryImperial} category.</h5>
       <Link to={`/imperial-results/${id}`}></Link>
     </div>
   )
