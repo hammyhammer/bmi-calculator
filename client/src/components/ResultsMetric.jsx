@@ -19,6 +19,7 @@ export default function ResultsPage() {
       <h1>Your Results</h1>
       <h5>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%. <br />
         With a BMI of {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%, you are placed in the {sum.fields?.categoryMetric} category.</h5>
+      <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses<a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
       <Link to={`/metric-results/${id}`}></Link>
     </div>
   )
