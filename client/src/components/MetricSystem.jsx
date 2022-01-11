@@ -21,7 +21,7 @@ export default function MetricSystem() {
     setInput(default_input)
     navigate(`/metric-results/${res.data.id}`)
   }
-
+  //line 19 was "", {fields}
   const handleMetricInput = (event) => {
     const { id, valueAsNumber } = event.target
     setInput(prevInput => ({

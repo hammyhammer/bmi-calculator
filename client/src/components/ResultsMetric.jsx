@@ -8,7 +8,7 @@ export default function ResultsPage() {
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/${id}`) //`/${id}`
+      const res = await api.get(`/calculator/${id}`) //`/${id}`
       setSum(res.data)
     }
     fetchSum();
