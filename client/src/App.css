@@ -19,7 +19,7 @@ header {
   justify-content: flex-start;
   background-color: rgb(111, 193, 193);
   padding: 11px 0px 11px 0px;
-  border: 2px solid lightskyblue;
+  border: 2px solid rgb(58, 171, 242);
 }
 
 .home {
@@ -44,6 +44,10 @@ header {
 
 footer {
   background-color: rgb(89, 235, 235);
+}
+
+.main-body {
+  font-size: 1.25vw;
 }
 
 .Results-Metric {
