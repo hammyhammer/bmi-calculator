@@ -14,7 +14,7 @@ export default function FormImperial(props) {
         <input id="heightImperial" value={heightImperial} type="number" placeholder="inches" onChange={props.handleImperialInput} />
         <label>height</label>
         <br />
-        <button>{props.type}</button>
+        <button className="submit-button">{props.type}</button>
       </form>
     </div>
   )

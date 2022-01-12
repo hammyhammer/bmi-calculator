@@ -14,7 +14,7 @@ export default function Form(props) {
 
     <br />
     <br />
-    <button>{props.type}</button>
+    <button className="submit-button">{props.type}</button>
   </form>
 
 }
