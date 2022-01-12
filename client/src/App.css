@@ -13,28 +13,34 @@ body {
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: rgb(111, 193, 193);
-  padding: 10px;
-}
-
-.socials {
-  display: flex;
-  border: 4px solid black;
-  
-
-  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
   justify-content: flex-start;
+  background-color: rgb(111, 193, 193);
+  padding: 11px 0px 11px 0px;
+  border: 4px solid purple;
 }
 
-.git {
-  width: 5%;
+.home {
+  padding: 0px 100px 0px 70px;
+
+
 }
 
-.link {
+/* .git { */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  */
+  /* align-self: flex-end; */
+  /* padding: 0px 10px 0px 100px;
   width: 5%;
-}
+} */
+
+/* .link { */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end; */
+  /* width: 5%;
+} */
 
 footer {
   background-color: rgb(89, 235, 235);
