@@ -5,18 +5,22 @@ export default function Home() {
     <div>
       <h2>Adult BMI Assessment</h2>
       <div className="main-body">
-        <p style={{ padding: "10px 300px 0px 300px" }}>BMI (Body Mass Index) is a quick calculation in which we take your weight in kilograms and divide
+        <p>BMI (Body Mass Index) is a quick calculation in which we take your weight in kilograms and divide
           by your height squared (kg/m^2). It is safe, and free assessment that could provided insight to any potential
           health-related issues.</p>
-        <div className="horizontal"></div>
-        <p>If you are interested to see what your BMI is, please select the system of measurement you are most familiar with.</p>
       </div>
-      <Link to="/imperial">
-        <button>Imperial</button>
-      </Link>
-      <Link to="/metric">
-        <button>Metric</button>
-      </Link>
+
+      <div className="horizontal"></div>
+      <div>
+        <p>If you are interested to see what your BMI is,
+          please select the system of measurement you are most familiar with.</p>
+        <Link to="/imperial">
+          <button>Imperial</button>
+        </Link>
+        <Link to="/metric">
+          <button>Metric</button>
+        </Link>
+      </div>
     </div>
   )
 }
