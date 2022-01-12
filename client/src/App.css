@@ -20,25 +20,31 @@ header {
   border: 2px solid rgb(58, 171, 242);
 }
 
-.home {
-  padding: 0px 100px 0px 70px;
+header a {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  height: 40%;
 }
 
-/* .git { */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: flex-start;  */
-  /* align-self: flex-end; */
-  /* padding: 0px 10px 0px 100px;
-  width: 5%;
-} */
+.home {
+  padding: 0px 40px 0px 30px;
+}
 
-/* .link { */
+ .git { 
   /* display: flex;
   flex-direction: row;
-  justify-content: flex-end; */
-  /* width: 5%;
-} */
+  justify-content: flex-start;  
+   align-self: flex-end;
+  padding: 0px 10px 0px 100px; */
+  width: 5%;
+}
+
+ .link { 
+  display: flex;
+  justify-content: flex-end; 
+   width: 10%;
+} 
 
 footer {
   background-color: rgb(89, 235, 235);

@@ -22,6 +22,8 @@ function App() {
         <Route path="/imperial-results/:id" element={<ResultsImperial />} />
         <Route path="/why-bmi" element={<WhyBmi />} />
       </Routes>
+
+      <footer>TWST TWST</footer>
     </div>
 
   );

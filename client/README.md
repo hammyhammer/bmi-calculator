@@ -122,7 +122,7 @@ This web application allows a user to determine their BMI. The user can select b
 |Handle submit functionality|H|1hr|1hr|1hr|
 |Input functionality|H|1.5hrs|1hr|1hr|
 |Create Post functionality|H|1hr|1.5hrs|1.5hrs|
-|Create Why BMI? page|H|2hrs|NA|NA|
+|Create Why BMI? page|H|2hrs|1hr|1hr|
 |Add Linkedin and Git icons|M|1.5hrs|NA|NA|
 |Add title for page and tab icon|M|1.5hrs|NA|NA
 |Stylize Header|M|1.5hrs|NA|NA|
