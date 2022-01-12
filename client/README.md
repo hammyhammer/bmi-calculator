@@ -116,9 +116,9 @@ This web application allows a user to determine their BMI. The user can select b
 |Create get functionality|H|1hr|1hr|1hr|
 |Create Imperial System|H|3hrs|3.5hrs|3.5hrs|
 |Create Metric System|H|3hrs|3hrs|3hrs|
-|Create Results Page|H|2.5hrs|NA|NA
-|Create logic to display Results|H|3hrs|1.5hrs|1.5hrs|
-|Adding Form|H|3hrs|NA|NA|
+|Create Results Page|H|2.5hrs|3hr|3hrs
+|Create logic to display Results|H|3hrs|2hrs|25hrs|
+|Adding Form|H|3hrs|2hrs|2hrs|
 |Handle submit functionality|H|1hr|1hr|1hr|
 |Input functionality|H|1.5hrs|1hr|1hr|
 |Create Post functionality|H|1hr|1.5hrs|1.5hrs|

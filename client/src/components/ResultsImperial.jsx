@@ -37,7 +37,7 @@ export default function ResultsImperial() {
         With a BMI of {Number.parseFloat(sum.fields?.calculationImperial).toFixed(2)}%, you are placed in the {sum.fields?.categoryImperial} category.</h5>
       <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses<a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
       <br />
-      <p>{sum.fields?.riskCategory}</p>
+      <p>{sum.fields?.riskCategory} </p>
       <br />
       <p>Remember, BMI is a screening tool. To gain more insight, your healthcare provider can preform further assessments.</p>
       <Link to={`/imperial-results/${id}`}></Link>

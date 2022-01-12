@@ -4,6 +4,7 @@ import MetricSystem from './components/MetricSystem';
 import ResultsMetric from './components/ResultsMetric';
 import ImperialSystem from './components/ImperialSystem';
 import ResultsImperial from './components/ResultsImperial';
+import WhyBmi from './components/WhyBmi';
 
 import './App.css';
 
@@ -18,7 +19,7 @@ function App() {
         <Route path="/metric" element={<MetricSystem />} />
         <Route path="/metric-results/:id" element={<ResultsMetric />} />
         <Route path="/imperial-results/:id" element={<ResultsImperial />} />
-        <Route path="/why-bmi" element={<div>Why BMI Page</div>} />
+        <Route path="/why-bmi" element={<WhyBmi />} />
       </Routes>
 
       <Link to="/imperial">
