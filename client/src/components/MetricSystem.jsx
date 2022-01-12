@@ -32,7 +32,7 @@ export default function MetricSystem() {
 
   return (
     <div>
-      <h2>Metric Version</h2>
+      <h2>Metric System</h2>
       <p>Please enter the following information listed down below</p>
       <div className="horizontal"></div>
       <FormMetric input={input}

@@ -7,9 +7,16 @@
   background-color: teal;
 } */
 
-h1 {
+body {
+  background-color: lightgray;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: rgb(111, 193, 193);
-  margin:auto;
+  padding: 10px;
 }
 
 footer {
