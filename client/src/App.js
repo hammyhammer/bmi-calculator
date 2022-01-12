@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <nav><Navbar /></nav>
       <Routes>
         <Route path="/" element={<div>Adult BMI Calculator</div>} />
         <Route path="/imperial" element={<ImperialSystem />} />

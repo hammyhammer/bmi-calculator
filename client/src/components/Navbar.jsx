@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div>
+    <h1>
       <Link to="/">
         <h3>
           Home
@@ -12,6 +12,6 @@ export default function Navbar() {
       <Link to="/why-bmi">
         Why BMI?
       </Link>
-    </div>
+    </h1>
   )
 }

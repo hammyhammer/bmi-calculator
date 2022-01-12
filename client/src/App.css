@@ -1,6 +1,23 @@
 .App {
   text-align: center;
 }
+h1 {
+  display: flex;
+  flex-direction: row;
+  background-color: teal;
+}
+
+header {
+  color: teal;
+}
+
+footer {
+  background-color: rgb(89, 235, 235);
+}
+
+.Results-Metric {
+  text-align: right;
+}
 
 .App-logo {
   height: 40vmin;
