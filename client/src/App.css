@@ -19,6 +19,23 @@ header {
   padding: 10px;
 }
 
+.socials {
+  display: flex;
+  border: 4px solid black;
+  
+
+  /* flex-direction: row-reverse; */
+  justify-content: flex-start;
+}
+
+.git {
+  width: 5%;
+}
+
+.link {
+  width: 5%;
+}
+
 footer {
   background-color: rgb(89, 235, 235);
 }
