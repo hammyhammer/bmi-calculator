@@ -5,6 +5,7 @@ import ResultsMetric from './components/ResultsMetric';
 import ImperialSystem from './components/ImperialSystem';
 import ResultsImperial from './components/ResultsImperial';
 import WhyBmi from './components/WhyBmi';
+import Home from './components/Home'
 
 import './App.css';
 
@@ -14,20 +15,13 @@ function App() {
     <div className="App">
       <nav><Navbar /></nav>
       <Routes>
-        <Route path="/" element={<div>Adult BMI Calculator</div>} />
+        <Route path="/" element={<Home />} />
         <Route path="/imperial" element={<ImperialSystem />} />
         <Route path="/metric" element={<MetricSystem />} />
         <Route path="/metric-results/:id" element={<ResultsMetric />} />
         <Route path="/imperial-results/:id" element={<ResultsImperial />} />
         <Route path="/why-bmi" element={<WhyBmi />} />
       </Routes>
-
-      <Link to="/imperial">
-        <button>Imperial</button>
-      </Link>
-      <Link to="/metric">
-        <button>Metric</button>
-      </Link>
     </div>
 
   );
