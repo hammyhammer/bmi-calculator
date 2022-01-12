@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+
 }
 /* h1 {
   display: flex;
@@ -20,35 +22,54 @@ header {
   border: 2px solid rgb(58, 171, 242);
 }
 
-header a {
-  display: flex;
-  justify-content: flex-start;
-  width: 40%;
-  height: 40%;
-}
+
 
 .home {
   padding: 0px 40px 0px 30px;
 }
 
+footer {
+  margin: auto;
+  display: flex;
+  flex-shrink: 0;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  border: 2px solid rgb(58, 171, 242);
+  background-color: rgb(111, 193, 193);
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  height: 40%;
+}
+
+.link { 
+  display: flex;
+  justify-content: flex-end; 
+  padding: 10px 20px 10px 30px;
+  width: 10%;
+  height: 10%;
+} 
+
  .git { 
-  /* display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;  
    align-self: flex-end;
-  padding: 0px 10px 0px 100px; */
-  width: 5%;
+  padding: 10px 0px 10px 0px;
+  width: 10%;
+  height: 10%;
 }
 
- .link { 
-  display: flex;
-  justify-content: flex-end; 
-   width: 10%;
-} 
 
-footer {
-  background-color: rgb(89, 235, 235);
-}
+// aboslute 0
+
 
 .main-body {
   font-size: 3vw;
@@ -69,8 +90,12 @@ footer {
   position: absolute;
   left: 10%;
   width: 80%;
-  border: 2px solid rgb(89,235, 235);
-  
+  border: 2px solid rgb(111,193, 193);
+
+}
+
+.bottom {
+  padding: 15px;
 }
 
 .weight {

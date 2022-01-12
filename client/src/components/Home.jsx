@@ -11,7 +11,7 @@ export default function Home() {
       </div>
 
       <div className="horizontal"></div>
-      <div>
+      <div className="bottom">
         <p>If you are interested to see what your BMI is,
           please select the system of measurement you are most familiar with.</p>
         <Link to="/imperial">
