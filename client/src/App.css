@@ -24,6 +24,7 @@ footer {
   background-color: orange;
   border-radius: 4px;
   border: 1px solid orange;
+  margin: 30px;
 }
 
 .horizontal {
@@ -31,6 +32,16 @@ footer {
   left: 10%;
   width: 80%;
   border: 2px solid rgb(89,235, 235);
+}
+
+.weight {
+  background-color: cyan;
+  margin: 30px;
+}
+
+.height {
+  background-color: darkgoldenrod;
+  margin: 30px;
 }
 
 .App-logo {

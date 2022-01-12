@@ -5,11 +5,11 @@ export default function Form(props) {
 
   return <form onSubmit={props.handleSubmit}>
     <br />
-    <input id="weightMetric" value={weightMetric} type="number" placeholder="kilograms" onChange={props.handleMetricInput} />
+    <input className="weight" id="weightMetric" value={weightMetric} type="number" placeholder="kilograms" onChange={props.handleMetricInput} />
     <label>Kilograms</label>
     <br />
     <br />
-    <input id="heightMetric" value={heightMetric} type="number" placeholder="centimeters" onChange={props.handleMetricInput} />
+    <input className="height" id="heightMetric" value={heightMetric} type="number" placeholder="centimeters" onChange={props.handleMetricInput} />
     <label>Centimeters</label>
 
     <br />

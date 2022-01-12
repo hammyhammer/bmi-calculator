@@ -30,6 +30,9 @@ export default function ImperialSystem() {
   };
   return (
     <div>
+      <h2>Imperial System</h2>
+      <p>Please enter the following information listed down below.</p>
+      <div className='horizontal'></div>
       <FormImperial input={input}
         handleSubmit={handleSubmit}
         handleImperialInput={handleImperialInput}
