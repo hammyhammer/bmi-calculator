@@ -33,8 +33,13 @@ export default function MetricSystem() {
   return (
     <div>
       <h2>Metric System</h2>
-      <p>Please enter the following information listed down below</p>
-      <div className="horizontal"></div>
+      <div className="met-body">
+        <p>Please enter the following information listed down below.</p>
+        <br />
+        <p>It is not necessary to enter the unit of measurement.
+          The prompted number value is all that is required.</p>
+      </div>
+      <div className="met-horizontal"></div>
       <FormMetric input={input}
         handleSubmit={handleSubmit}
         handleMetricInput={handleMetricInput}
