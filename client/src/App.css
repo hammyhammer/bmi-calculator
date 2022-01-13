@@ -121,7 +121,26 @@ header {
   font-size: 5vw;
 }
 
+.results-metric {
+  text-align: center;
+}
 
+.met-results-top {
+  margin: 30px;
+}
+
+.met-results-horizontal {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  border: 2px solid rgb(111,193, 193);
+}
+
+.results-met-bottom {
+  margin: 70px;
+  font-size: 5vw;
+  padding: 30px 0px 0px 0px;
+}
 
 footer {
   margin: auto;
@@ -167,9 +186,7 @@ footer a {
 
 
 
-.Results-Metric {
-  text-align: center;
-}
+
 
 
 
