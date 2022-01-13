@@ -33,6 +33,8 @@ export default function ResultsPage() {
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
             <a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
           <p>{sum.fields?.riskCategory}</p>
+          <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
+
         </div>
         <Link to={`/metric-results/${id}`}></Link>
       </div>
