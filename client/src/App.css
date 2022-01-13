@@ -51,6 +51,37 @@ header {
 
 }
 
+.imp-body {
+  margin: 40px 20px 50px 20px;
+  font-size: 5vw;
+}
+
+.imp-horizontal {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  border: 2px solid rgb(111,193, 193);
+}
+
+.imp-weight {
+  background-color: orchid;
+  margin: 40px 0px 20px 0px;
+}
+
+.imp-height {
+  background-color: palegreen;
+  margin: 30px 0px 20px 0px;
+}
+
+.submit-button {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 30px;
+  font-size: 5vw;
+}
+
 footer {
   margin: auto;
   display: flex;
@@ -99,12 +130,7 @@ footer a {
   text-align: center;
 }
 
-.submit-button {
-  background-color: orange;
-  border-radius: 4px;
-  border: 1px solid orange;
-  margin: 30px;
-}
+
 
 .horizontal {
   position: absolute;

@@ -31,8 +31,14 @@ export default function ImperialSystem() {
   return (
     <div>
       <h2>Imperial System</h2>
-      <p>Please enter the following information listed down below.</p>
-      <div className='horizontal'></div>
+      <div className="imp-body">
+        <p>Please enter the following information listed down below.</p>
+        <br />
+        <p>It is not necessary to enter the unit of measurement.
+          The prompted number value is all that is required.</p>
+      </div>
+
+      <div className='imp-horizontal'></div>
       <FormImperial input={input}
         handleSubmit={handleSubmit}
         handleImperialInput={handleImperialInput}
