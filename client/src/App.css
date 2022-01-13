@@ -126,7 +126,7 @@ header {
 }
 
 .met-results-top {
-  margin: 30px;
+  margin: 40px;
 }
 
 .met-results-horizontal {
@@ -137,7 +137,7 @@ header {
 }
 
 .results-met-bottom {
-  margin: 70px;
+  margin: 50px 30px 70px 30px;
   font-size: 5vw;
   padding: 30px 0px 0px 0px;
 }

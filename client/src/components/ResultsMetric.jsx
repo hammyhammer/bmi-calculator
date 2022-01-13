@@ -20,6 +20,7 @@ export default function ResultsPage() {
         <h2>Your Results</h2>
         <h3>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%.
           <br />
+          <br />
           With a BMI of {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%,
           you are placed in the {sum.fields?.categoryMetric} category.</h3>
       </div>
