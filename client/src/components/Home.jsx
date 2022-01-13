@@ -15,10 +15,11 @@ export default function Home() {
         <p>If you are interested to see what your BMI is,
           please select the system of measurement you are most familiar with.</p>
         <Link to="/imperial">
-          <button>Imperial</button>
+          <button className="imperial">Imperial</button>
         </Link>
+        <br />
         <Link to="/metric">
-          <button>Metric</button>
+          <button className="metric">Metric</button>
         </Link>
       </div>
     </div>

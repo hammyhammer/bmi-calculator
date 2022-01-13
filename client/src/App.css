@@ -28,6 +28,16 @@ header {
   padding: 0px 40px 0px 30px;
 }
 
+.imperial {
+  background-color: lime;
+  margin: 75px;
+}
+
+.metric {
+  background-color: red;
+  padding: 0px 11.5px
+}
+
 footer {
   margin: auto;
   display: flex;
@@ -40,6 +50,7 @@ footer {
   justify-content: center;
   border: 2px solid rgb(58, 171, 242);
   background-color: rgb(111, 193, 193);
+  padding: 0px;
 }
 
 footer a {
