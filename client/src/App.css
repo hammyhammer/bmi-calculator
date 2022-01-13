@@ -64,13 +64,17 @@ header {
 }
 
 .imp-weight {
-  background-color: orchid;
   margin: 40px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
 }
 
 .imp-height {
-  background-color: palegreen;
   margin: 30px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
 }
 
 .submit-button {
