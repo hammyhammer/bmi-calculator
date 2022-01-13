@@ -4,9 +4,11 @@ export default function Home() {
   return (
     <div>
       <h2>Adult BMI Assessment</h2>
-      <div className="main-body">
+      <div className="home-main-body">
         <p>BMI (Body Mass Index) is a quick calculation in which we take your weight in kilograms and divide
-          by your height squared (kg/m^2). It is safe, and free assessment that could provided insight to any potential
+          by your height squared (kg/m^2).</p>
+        {/* <br /> */}
+        <p>It is safe, and free assessment that could provide insight to any potential
           health-related issues.</p>
       </div>
 
@@ -17,10 +19,14 @@ export default function Home() {
         <Link to="/imperial">
           <button className="imperial">Imperial</button>
         </Link>
+        <p>(Inches, pounds.)</p>
+
         <br />
         <Link to="/metric">
           <button className="metric">Metric</button>
         </Link>
+        <p>(Meters, kilograms.)</p>
+
       </div>
     </div>
   )

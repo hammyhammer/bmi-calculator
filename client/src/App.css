@@ -24,18 +24,31 @@ header {
 
 
 
-.home {
+.home-button {
   padding: 0px 40px 0px 30px;
 }
 
+.home-main-body {
+  font-size: 4vw;
+  margin: 30px 30px 0px 30px
+}
+
+.bottom {
+  padding: 15px;
+}
+
 .imperial {
-  background-color: lime;
-  margin: 75px;
+  background-color: orange;
+  font-size: 20px;
+  margin: 50px 0px 0px 0px;
 }
 
 .metric {
   background-color: red;
-  padding: 0px 11.5px
+  padding: 0px 11.5px;
+  font-size: 20px;
+  margin: 30px 0px 0px 0px;
+
 }
 
 footer {
@@ -79,12 +92,8 @@ footer a {
 }
 
 
-// aboslute 0
 
 
-.main-body {
-  font-size: 3vw;
-}
 
 .Results-Metric {
   text-align: center;
@@ -102,12 +111,8 @@ footer a {
   left: 10%;
   width: 80%;
   border: 2px solid rgb(111,193, 193);
-
 }
 
-.bottom {
-  padding: 15px;
-}
 
 .weight {
   background-color: cyan;
