@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import FormMetric from './FormMetric'
 
 const default_input = {
-  weightMetric: 0,
-  heightMetric: 0,
+  weightMetric: "",
+  heightMetric: "",
 }
 
 export default function MetricSystem() {

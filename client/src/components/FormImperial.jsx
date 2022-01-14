@@ -21,11 +21,13 @@ export default function FormImperial(props) {
         </label>
         <br />
         <br />
-        <input className="imp-feet" id="heightFeet" value={heightFeet} type="number" placeholder="feet" onChange={props.handleImperialInput} />
-        <input className="imp-inches" id="heightInches" value={heightInches} type="number" placeholder="inches" onChange={props.handleImperialInput} />
-        <label className="icon-height">
-          <i className="fas fa-ruler-vertical fa-3x"></i>
-        </label>
+        <div className="foot-inch">
+          <input className="imp-feet" id="heightFeet" value={heightFeet} type="number" placeholder="feet" onChange={props.handleImperialInput} />
+          <input className="imp-inches" id="heightInches" value={heightInches} type="number" placeholder="inches" onChange={props.handleImperialInput} />
+          <label className="icon-height">
+            <i className="fas fa-ruler-vertical fa-3x"></i>
+          </label>
+        </div>
 
         <br />
         <button className="imp-submit-button">{props.type}</button>

@@ -75,7 +75,7 @@ header {
 }
 
 .imp-weight {
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px 20px 500px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
@@ -83,19 +83,22 @@ header {
 }
 
 .icon-weight {
-  position: relative;
-  top: 42.5%;
-  right: 30%;
+  /* position: absolute;
+  top: 42%;
+  right: 31.5%; */
+  padding: 225px;
 }
 
-.icon-weight-met {
-  position: relative;
-  top: 42.5%;
-  right: 30%;
+.foot-inch {
+  margin: 30px 0px 20px 460px;
+  /* padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+  width:55px; */
 }
 
 .imp-feet {
-  margin: 30px 0px 20px 0px;
+  /* margin: 30px 40px 20px 0px; */
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
@@ -103,24 +106,18 @@ header {
 }
 
 .imp-inches {
-  margin: 30px 0px 20px 20px;
+  /* margin: 30px 0px 20px 490px; */
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
-  width:40px;
+  width:55px;
 }
 
 .icon-height {
-  position: relative;
-  top: 56%;
-  right: 32%;
+  padding: 215px;
 }
 
-.icon-height-met {
-  position: relative;
-  top: 442px;
-  right: 512px;
-}
+
 
 .imp-submit-button {
   background-color: orange;
@@ -144,17 +141,28 @@ header {
 }
 
 .met-weight {
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px 20px 490px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
 }
 
+.icon-weight-met {
+  /* position: relative;
+  top: 42.5%;
+  right: 30%; */
+  padding: 225px
+}
+
 .met-height {
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 20px 490px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
+}
+
+.icon-height-met {
+  padding: 240px;
 }
 
 .met-submit-button {
@@ -253,7 +261,37 @@ footer a {
 
 
 @media only screen and (max-width: 500px) {
+icon-weight {
+  display: none;
+  visibility: hidden;
+  margin: 1px;
+  padding: 1px
 
+}
+
+icon-weight-met {
+  display: none;
+  visibility: hidden;
+  margin: 1px;
+  padding: 1px
+
+}
+
+icon-height {
+  display: none;
+  visibility: hidden;
+  margin: 1px;
+  padding: 1px
+
+}
+
+icon-height-met {
+  display: none;
+  visibility: hidden;
+  margin: 1px;
+  padding: 1px
+
+}
 
 header {
   display: flex;
