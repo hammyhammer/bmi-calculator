@@ -51,9 +51,9 @@ export default function ResultsImperial() {
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
             <a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
           <p>{sum.fields?.riskCategory}</p>
-          {sum.fields.categoryImperial === 'Underweight' ? <p>Citation for underweight</p> :
-            sum.fields.categoryImperial === "Normal" ? <p>Citation for Normal</p> :
-              sum.fields.categoryImperial === "Overweight" ? <p>Citation for Overweight</p> :
+          {sum.fields?.categoryImperial === 'Underweight' ? <p>Citation for underweight</p> :
+            sum.fields?.categoryImperial === "Normal" ? <p>Citation for Normal</p> :
+              sum.fields?.categoryImperial === "Overweight" ? <p>Citation for Overweight</p> :
                 <p>Citation for obese</p>}
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
         </div>
