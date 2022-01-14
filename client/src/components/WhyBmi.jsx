@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function WhyBmi() {
   return (
     <div>
-      <h2>Why BMI?</h2>
+      <h2 className="why-header">Why BMI?</h2>
       <div className="why-top">
         <p>BMI is a simple and easy to do calculation that allows insight to any potential health issues.
           It is important to note that BMI is a not a diagnosis of any illness<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Used">[1]</a>.
@@ -25,7 +25,7 @@ export default function WhyBmi() {
             Underweight: less than 18.5. <br />
             Normal: 18.5 to less than 25. <br />
             Overweight: 25 to less than 30. <br />
-            Obese: 30.0 or higher<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Used">[4]</a>.</p>
+            Obese: 30.0 or higher<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#InterpretedAdults">[4]</a>.</p>
 
         </div>
 
