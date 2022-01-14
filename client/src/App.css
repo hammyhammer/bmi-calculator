@@ -256,27 +256,36 @@ header {
   padding: 0px 40px 0px 30px;
 }
 
+.home-header {
+  font-size: 7vw;
+}
+
 .home-main-body {
-  font-size: 4vw;
+  font-size: 4.5vw;
   margin: 30px 30px 0px 30px
 }
 
 .bottom {
+  font-size: 4.5vw;
   padding: 15px;
 }
 
 .imperial {
   background-color: orange;
   font-size: 20px;
-  margin: 50px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 .metric {
   background-color: red;
   padding: 0px 11.5px;
   font-size: 20px;
-  margin: 30px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 
+}
+
+.imp-header {
+  font-size: 7vw;
 }
 
 .imp-body {
@@ -355,6 +364,7 @@ header {
 
 .met-results-top {
   margin: 40px;
+  font-size: 4vw;
 }
 
 .met-results-horizontal {
@@ -368,6 +378,10 @@ header {
   margin: 50px 30px 70px 30px;
   font-size: 5vw;
   padding: 30px 0px 0px 0px;
+}
+
+.why-header {
+  font-size: 7vw;
 }
 
 .why-top {
