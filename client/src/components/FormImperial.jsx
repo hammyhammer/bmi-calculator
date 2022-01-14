@@ -9,7 +9,7 @@ const glasses = findIconDefinition({ prefix: 'fas', iconName: 'glasses' })
 const i = icon(glasses)
 
 export default function FormImperial(props) {
-  const { weightImperial, heightImperial } = props.input
+  const { weightImperial, heightFeet, heightInches } = props.input
 
   return (
     <div>
@@ -21,7 +21,8 @@ export default function FormImperial(props) {
         </label>
         <br />
         <br />
-        <input className="imp-height" id="heightImperial" value={heightImperial} type="number" placeholder="inches" onChange={props.handleImperialInput} />
+        <input className="imp-feet" id="heightFeet" value={heightFeet} type="number" placeholder="feet" onChange={props.handleImperialInput} />
+        <input className="imp-inches" id="heightInches" value={heightInches} type="number" placeholder="inches" onChange={props.handleImperialInput} />
         <label className="icon-height">
           <i className="fas fa-ruler-vertical fa-3x"></i>
         </label>

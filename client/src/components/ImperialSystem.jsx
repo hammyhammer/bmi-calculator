@@ -4,8 +4,9 @@ import FormImperial from './FormImperial';
 import { useNavigate } from 'react-router-dom';
 
 const default_input = {
-  weightImperial: 0,
-  heightImperial: 0,
+  weightImperial: "",
+  heightFeet: "",
+  heightInches: "",
 }
 
 export default function ImperialSystem() {

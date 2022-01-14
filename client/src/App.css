@@ -93,7 +93,14 @@ header {
   right: 500px;
 }
 
-.imp-height {
+.imp-feet {
+  margin: 30px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.imp-inches {
   margin: 30px 0px 20px 0px;
   padding: 3px 2px;
   border-radius: 7px;

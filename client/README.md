@@ -117,7 +117,7 @@ This web application allows a user to determine their BMI. The user can select b
 |Create Imperial System|H|3hrs|3.5hrs|3.5hrs|
 |Create Metric System|H|3hrs|3hrs|3hrs|
 |Create Results Page|H|2.5hrs|3hr|3hrs
-|Create logic to display Results|H|3hrs|2hrs|25hrs|
+|Create logic to display Results|H|3hrs|2hrs|2hrs|
 |Adding Form|H|3hrs|2hrs|2hrs|
 |Handle submit functionality|H|1hr|1hr|1hr|
 |Input functionality|H|1.5hrs|1hr|1hr|
@@ -126,9 +126,9 @@ This web application allows a user to determine their BMI. The user can select b
 |Add Linkedin and Git icons|M|1.5hrs|NA|NA|
 |Add title for page and tab icon|M|1.5hrs|NA|NA
 |Stylize Header|M|1.5hrs|NA|NA|
-|Stylize text and alignment|H|3hrs|NA|NA|
+|Stylize text and alignment|H|3hrs|2hrs|2hrs|
 |Display results|H|2hrs|1.5hrs|1.5hrs|
-|Media query|H|3hrs|NA|NA|
+|Media query|H|3hrs|3hrs|3hrs|
 |Create intuitive Imperial input|L|3.5hrs|NA|NA|
 |Utilize loading animation|L|2hrs|NA|NA|
 |Create local storage|L|3.5hrs|NA|NA|
