@@ -31,8 +31,12 @@ export default function ResultsPage() {
 
         <div className="results-met-bottom">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
-            <a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
-          <p>{sum.fields?.riskCategory}</p>
+            <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
+          <p>{sum.fields?.riskCategory}
+            {sum.fields?.categoryMetric === 'Underweight' ? <a className="reference" href="https://www.healthline.com/health/underweight-health-risks#malnutrition">[2]</a> :
+              sum.fields?.categoryMetric === "Normal" ? <a className="reference" href="https://www.aicr.org/resources/blog/a-normal-bmi-doesnt-mean-youre-healthy/">[2]</a> :
+                sum.fields?.categoryMetric === "Overweight" ? <a className="reference" href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi#risks-of-being-overweight-high-bmi-and-physically-inactive">[2]</a> :
+                  <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[2]</a>}</p>
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
 
         </div>

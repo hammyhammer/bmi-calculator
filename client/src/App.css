@@ -83,15 +83,15 @@ header {
 }
 
 .icon-weight {
-  position: absolute;
-  top: 362px;
-  right: 500px;
+  position: relative;
+  top: 42.5%;
+  right: 30%;
 }
 
 .icon-weight-met {
-  position: absolute;
-  top: 347px;
-  right: 500px;
+  position: relative;
+  top: 42.5%;
+  right: 30%;
 }
 
 .imp-feet {
@@ -111,13 +111,13 @@ header {
 }
 
 .icon-height {
-  position: absolute;
-  top: 455px;
-  right: 512px;
+  position: relative;
+  top: 56%;
+  right: 32%;
 }
 
 .icon-height-met {
-  position: absolute;
+  position: relative;
   top: 442px;
   right: 512px;
 }
@@ -245,7 +245,9 @@ footer a {
   height: 10%;
 }
 
-
+.reference {
+  font-size: 1vw;
+}
 
 
 

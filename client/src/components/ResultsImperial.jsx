@@ -5,28 +5,11 @@ import api from "../services/apiConfig"
 export default function ResultsImperial() {
   const [sum, setSum] = useState({})
   const { id } = useParams();
-  let risks = "";
 
   useEffect(() => {
     const fetchSum = async () => {
       const res = await api.get(`/imperial/${id}`)
       setSum(res.data)
-
-
-      let riskCategory = sum.fields?.calulationImperial;
-
-      if (riskCategory < 18.5) {
-        risks = 'Risks associated with the underweight classification include weakened immune function, malnourishment, and osteoporosis.'
-      }
-      else if (riskCategory >= 18.5 && riskCategory <= 24.9) {
-        risks = 'normal'
-      }
-      else if (riskCategory >= 25.0 && riskCategory <= 29.9) {
-        risks = "risks of being overwieght"
-      }
-      else if (riskCategory >= 30.0) {
-        risks = "risks fo being obese"
-      }
     }
     fetchSum();
   }, []);
@@ -49,12 +32,13 @@ export default function ResultsImperial() {
         <div className="met-results-horizontal"></div>
         <div className="results-met-bottom">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
-            <a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
-          <p>{sum.fields?.riskCategory}</p>
-          {sum.fields?.categoryImperial === 'Underweight' ? <p>Citation for underweight</p> :
-            sum.fields?.categoryImperial === "Normal" ? <p>Citation for Normal</p> :
-              sum.fields?.categoryImperial === "Overweight" ? <p>Citation for Overweight</p> :
-                <p>Citation for obese</p>}
+            <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
+          <p>{sum.fields?.riskCategory}
+            {sum.fields?.categoryImperial === 'Underweight' ? <a className="reference" href="https://www.healthline.com/health/underweight-health-risks#malnutrition">[2]</a> :
+              sum.fields?.categoryImperial === "Normal" ? <a className="reference" href="https://www.aicr.org/resources/blog/a-normal-bmi-doesnt-mean-youre-healthy/">[2]</a> :
+                sum.fields?.categoryImperial === "Overweight" ? <a className="reference" href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi#risks-of-being-overweight-high-bmi-and-physically-inactive">[2]</a> :
+                  <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[2]</a>}</p>
+
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
         </div>
         <Link to={`/metric-results/${id}`}></Link>
