@@ -129,10 +129,10 @@ This web application allows a user to determine their BMI. The user can select b
 |Stylize text and alignment|H|3hrs|2hrs|2hrs|
 |Display results|H|2hrs|1.5hrs|1.5hrs|
 |Media query|H|3hrs|3hrs|3hrs|
-|Create intuitive Imperial input|L|3.5hrs|NA|NA|
+|Create intuitive Imperial input|L|3.5hrs|3hrs|3hrs|
 |Utilize loading animation|L|2hrs|NA|NA|
 |Create local storage|L|3.5hrs|NA|NA|
-|Create references in information|L|3.5|NA|NA|
+|Create references in information|L|3.5|3hrs|3hrs|
 | Total|H|51hrs|NA|NA|
 
 ## SWOT Analysis
