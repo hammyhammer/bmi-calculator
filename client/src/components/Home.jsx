@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div>
-      <h2>Adult BMI Assessment</h2>
+      <h2 className="home-header">Adult BMI Assessment</h2>
       <div className="home-main-body">
         <p>BMI (Body Mass Index) is a quick calculation in which we take your weight in kilograms and divide
           by your height squared (kg/m^2).</p>

@@ -3,15 +3,105 @@
   height: 100vh;
 
 }
-/* h1 {
-  display: flex;
-  flex-direction: row;
-  background-color: teal;
-} */
 
 body {
   background-color: lightgray;
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: rgb(111, 193, 193);
+  padding: 11px 0px 11px 0px;
+  border: 2px solid rgb(58, 171, 242);
+}
+
+.home-button {
+  padding: 0px 120px 0px 30px;
+}
+
+.home-header {
+  font-size: 2.5vw;
+  margin: 40px;
+}
+
+.home-main-body {
+  font-size: 1.5vw;
+  margin: 30px 80px 0px 80px
+}
+
+.horizontal {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  border: 2px solid rgb(111,193, 193);
+}
+
+.bottom {
+  font-size: 1.5vw;
+  padding: 15px;
+}
+
+.imperial {
+  background-color: orange;
+  font-size: 20px;
+  margin: 40px 0px 0px 0px;
+}
+
+.metric {
+  background-color: red;
+  padding: 0px 11.5px;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px;
+
+}
+
+footer {
+  margin: auto;
+  display: flex;
+  flex-shrink: 0;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  border: 2px solid rgb(58, 171, 242);
+  background-color: rgb(111, 193, 193);
+  padding: 0px;
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  height: 40%;
+}
+
+.link { 
+  display: flex;
+  justify-content: flex-end; 
+  padding: 10px 20px 10px 30px;
+  width: 10%;
+  height: 10%;
+} 
+
+ .git { 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  
+   align-self: flex-end;
+  padding: 10px 0px 10px 0px;
+  width: 10%;
+  height: 10%;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
 
 header {
   display: flex;
@@ -199,7 +289,7 @@ footer a {
 }
 
 
-
+}
 
 
 
