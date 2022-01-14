@@ -81,11 +81,35 @@ header {
   border: 2px solid black;
 }
 
+.icon-weight {
+  position: absolute;
+  top: 362px;
+  right: 500px;
+}
+
+.icon-weight-met {
+  position: absolute;
+  top: 347px;
+  right: 500px;
+}
+
 .imp-height {
   margin: 30px 0px 20px 0px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
+}
+
+.icon-height {
+  position: absolute;
+  top: 455px;
+  right: 512px;
+}
+
+.icon-height-met {
+  position: absolute;
+  top: 442px;
+  right: 512px;
 }
 
 .imp-submit-button {
@@ -210,6 +234,8 @@ footer a {
   width: 10%;
   height: 10%;
 }
+
+
 
 
 
