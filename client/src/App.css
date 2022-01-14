@@ -15,6 +15,7 @@ header {
   background-color: rgb(111, 193, 193);
   padding: 11px 0px 11px 0px;
   border: 2px solid rgb(58, 171, 242);
+  width: 100vw;
 }
 
 .home-button {
@@ -94,6 +95,59 @@ header {
   border: 1px solid orange;
   margin: 30px;
   font-size: 1.5vw;
+}
+
+.met-body {
+  margin: 40px 20px 50px 20px;
+  font-size: 1.5vw;
+}
+
+.met-horizontal {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  border: 2px solid rgb(111,193, 193);
+}
+
+.met-weight {
+  margin: 40px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.met-height {
+  margin: 30px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.met-submit-button {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 30px;
+  font-size: 1.5vw;
+}
+
+.met-results-top {
+  margin: 40px;
+  font-size: 1.5vw;
+}
+
+.met-results-horizontal {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  border: 2px solid rgb(111,193, 193);
+}
+
+.results-met-bottom {
+  margin: 50px 80px 70px 80px;
+  font-size: 1.75vw;
+  padding: 30px 0px 0px 0px;
 }
 
 
