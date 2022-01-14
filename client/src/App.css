@@ -79,6 +79,7 @@ header {
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
+  width: 60px;
 }
 
 .icon-weight {
@@ -98,13 +99,15 @@ header {
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
+  width:40px
 }
 
 .imp-inches {
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 20px 20px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
+  width:40px;
 }
 
 .icon-height {
