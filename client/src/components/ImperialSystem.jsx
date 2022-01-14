@@ -30,7 +30,7 @@ export default function ImperialSystem() {
   };
   return (
     <div>
-      <h2>Imperial System</h2>
+      <h2 className="imp-header">Imperial System</h2>
       <div className="imp-body">
         <p>Please enter the following information listed down below.</p>
         <br />
