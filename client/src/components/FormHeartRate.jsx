@@ -10,6 +10,6 @@ export default function FormHeartRate(props) {
       <i className="fas fa-weight fa-3x"></i>
     </label>  */}
     <br />
-    <button className="met-submit-button">{props.type}</button>
+    <button className="heart-submit-button">{props.type}</button>
   </form>
 }

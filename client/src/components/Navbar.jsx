@@ -15,10 +15,10 @@ export default function Navbar() {
 
       <Link
         to="/heart-rate">
-        <button className="nav-button">Resting Heart Rate</button>
+        <button className="nav-button">Heart Rate</button>
       </Link>
 
-      <button className="nav-button">Hip to Waist Ratio</button>
+      <button className="nav-button">Hip to Waist</button>
       {/* <button className="nav-button">More Resources</button> */}
 
 

@@ -251,14 +251,20 @@ footer a {
   font-size: 1vw;
 }
 
-.heart-page {
-  /* background-image: url("https://cdn4.vectorstock.com/i/1000x1000/56/63/abstract-heart-pulse-medical-background-vector-2055663.jpg"); */
-  /* background-size: contain; */
-}
+/* .heart-page {
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/56/63/abstract-heart-pulse-medical-background-vector-2055663.jpg");
+  background-size: contain;
+  position: absolute;
+} */
+/* 
+.heart-submit-button {
+  margin: 0px 0px 205px 0px
+} */
 
-.bmi-home {
-    /* background-image: url("https://cdn4.vectorstock.com/i/1000x1000/56/63/abstract-heart-pulse-medical-background-vector-2055663.jpg"); */
-
+.bmi-home{
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/56/63/abstract-heart-pulse-medical-background-vector-2055663.jpg");
+  background-size: contain;
+  position: absolute;
 }
 
 
@@ -324,14 +330,9 @@ footer a {
 header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   background-color: rgb(111, 193, 193);
-  padding: 11px 0px 11px 0px;
   border: 2px solid rgb(58, 171, 242);
-}
-
-.home-button {
-  padding: 0px 40px 0px 30px;
 }
 
 .home-header {
