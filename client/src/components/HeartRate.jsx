@@ -28,14 +28,13 @@ export default function HeartRate() {
     }));
   };
   return (
-    <div>
+    <div className="heart-page">
       <h2 className="imp-header">Resting Heart Rate</h2>
       <div className="imp-body">
         <p>Please find a comfortable spot to sit in and relax for a few moments.</p>
         <br />
         <p>When you are ready, please place your index and middle finger over your radial pulse.
           Begin counting how many pulses you feel for 15 seconds. (the clock will run for 60 seconds) </p>
-        //place an image here
       </div>
 
       <div className='imp-horizontal'></div>

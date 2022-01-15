@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      Welcome to MyHealth Log!
+      Welcome to Self-Check!
     </div>
   )
 }
