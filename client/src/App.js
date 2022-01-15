@@ -7,8 +7,10 @@ import ResultsImperial from './components/ResultsImperial';
 import WhyBmi from './components/WhyBmi';
 import Home from './components/Home';
 import BmiHome from './components/BmiHome';
+import HeartRate from './components/HeartRate';
 
 import './App.css';
+import ResultsHeartRate from './components/ResultsHeartRate';
 
 function App() {
 
@@ -23,6 +25,11 @@ function App() {
         <Route path="/metric-results/:id" element={<ResultsMetric />} />
         <Route path="/imperial-results/:id" element={<ResultsImperial />} />
         <Route path="/why-bmi" element={<WhyBmi />} />
+        <Route path="/heart-rate" element={<HeartRate />} />
+        <Route path="/heart-rate-results/:id" element={<ResultsHeartRate />} />
+        <Route path="/waist-to-hip" element={<div>This is waist to hip ratio page</div>} />
+        <Route path="/more-resources" element={<div>This is more resources page</div>} />
+
       </Routes>
 
       <footer>

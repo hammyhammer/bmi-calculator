@@ -9,17 +9,16 @@ export default function Navbar() {
       </Link>
 
       <Link
-        to="/why-bmi">
-        <button className="nav-button">Why BMI?</button>
-      </Link>
-
-      <Link
         to="/bmi">
         <button className="nav-button">BMI</button>
       </Link>
 
+      <Link
+        to="/heart-rate">
+        <button className="nav-button">Heart Rate</button>
+      </Link>
+
       <button className="nav-button">Hip to Waist Ratio</button>
-      <button className="nav-button">Heart Rate</button>
       <button className="nav-button">More Resources</button>
 
 
