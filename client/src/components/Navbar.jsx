@@ -4,16 +4,23 @@ export default function Navbar() {
   return (
     <header>
       <Link
-        className="home-button"
         to="/">
-        <button>Home</button>
+        <button className="nav-button">Home</button>
       </Link>
 
       <Link
-        className="why-bmi-button"
         to="/why-bmi">
-        <button>Why BMI?</button>
+        <button className="nav-button">Why BMI?</button>
       </Link>
+
+      <Link
+        to="/bmi">
+        <button className="nav-button">BMI</button>
+      </Link>
+
+      <button className="nav-button">Hip to Waist Ratio</button>
+      <button className="nav-button">Heart Rate</button>
+      <button className="nav-button">More Resources</button>
 
 
     </header>

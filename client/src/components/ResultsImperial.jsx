@@ -40,6 +40,10 @@ export default function ResultsImperial() {
                   <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[2].</a>}</p>
 
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
+          <Link
+            to="/why-bmi">
+            <button>Click here to learn more about BMI</button>
+          </Link>
         </div>
         <Link to={`/metric-results/${id}`}></Link>
       </div>

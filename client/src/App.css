@@ -5,21 +5,22 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: white;
 }
 
 header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  background-color: rgb(111, 193, 193);
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  background-color: rgb(53, 201, 179);
   padding: 11px 0px 11px 0px;
-  border: 2px solid rgb(58, 171, 242);
+  border: 5px solid rgb(27, 13, 230);
   width: 100vw;
 }
 
-.home-button {
-  padding: 0px 120px 0px 30px;
+.nav-button {
+  height: 30px;
+  border-radius: 4px;
 }
 
 .home-header {
@@ -28,8 +29,11 @@ header {
 }
 
 .home-main-body {
-  font-size: 1.5vw;
-  margin: 30px 80px 0px 80px
+  font-size: 2vw;
+  margin: 30px 80px 0px 80px;
+  background-color: palegreen;
+  border: 4px solid lightcoral;
+  border-radius: 10px;
 }
 
 .horizontal {
@@ -40,14 +44,14 @@ header {
 }
 
 .bottom {
-  font-size: 1.5vw;
+  font-size: 2vw;
   padding: 15px;
 }
 
 .imperial {
-  background-color: orange;
+  background-color: rgb(255, 166, 0);
   font-size: 20px;
-  margin: 40px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 .metric {
@@ -204,7 +208,7 @@ header {
 
 
 footer {
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   flex-shrink: 0;
   width: 100vw;
@@ -213,7 +217,7 @@ footer {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  border: 2px solid rgb(58, 171, 242);
+  border: 5px solid rgb(27, 13, 230);
   background-color: rgb(111, 193, 193);
   padding: 0px;
 }
@@ -229,18 +233,18 @@ footer a {
   display: flex;
   justify-content: flex-end; 
   padding: 10px 20px 10px 30px;
-  width: 10%;
-  height: 10%;
+  width: 5%;
+  height: 5%;
 } 
 
  .git { 
   display: flex;
   flex-direction: row;
   justify-content: flex-start;  
-   align-self: flex-end;
+  align-self: flex-end;
   padding: 10px 0px 10px 0px;
-  width: 10%;
-  height: 10%;
+  width: 5%;
+  height: 5%;
 }
 
 .reference {
