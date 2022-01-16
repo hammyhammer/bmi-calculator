@@ -5,11 +5,11 @@ export default function FormHeartRate(props) {
 
   return <form onSubmit={props.handleSubmit}>
     <br />
-    <input className="" id="recordedBeats" value={recordedBeats} type="number" placeholder="Heartbeats Counted" onChange={props.handleHeartInput} />
+    <input className="heart-input" id="recordedBeats" value={recordedBeats} type="number" placeholder="Heartbeats Counted" onChange={props.handleHeartInput} />
     {/* <label className="icon-weight-met">
       <i className="fas fa-weight fa-3x"></i>
     </label>  */}
     <br />
-    <button className="heart-submit-button">{props.type}</button>
+    <button className="imp-submit-button">{props.type}</button>
   </form>
 }

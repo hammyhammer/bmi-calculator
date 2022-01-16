@@ -5,11 +5,11 @@ export default function Home() {
     <div className='bmi-home'>
       <h2 className="home-header">Adult BMI Assessment</h2>
       <div className="home-main-body">
-        <p>BMI (Body Mass Index) is a quick calculation in which we take your weight in kilograms and divide
-          by your height squared (kg/m^2).</p>
+        <p>BMI (Body Mass Index) is a measurement between the ratio of your height and weight.
+          It is a good way to gauge your body's composition.
+        </p>
         {/* <br /> */}
-        <p>It is safe, and free assessment that could provide insight to any potential
-          health-related issues.</p>
+        <p>With BMI, we can gain insight to potential health-related issues in a safe and quick manner.</p>
       </div>
 
       <div className="horizontal"></div>

@@ -31,7 +31,6 @@ function App() {
         <Route path="/more-resources" element={<div>This is more resources page</div>} />
 
       </Routes>
-      <div className="footer-horizontal"></div>
       <footer>
         <a href="https://github.com/hammyhammer">
           <img

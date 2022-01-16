@@ -21,8 +21,6 @@ export default function Navbar() {
       <button className="nav-button">Hip to Waist</button>
       {/* <button className="nav-button">More Resources</button> */}
 
-      <div className="header-horizontal"></div>
-
     </header>
 
   )
