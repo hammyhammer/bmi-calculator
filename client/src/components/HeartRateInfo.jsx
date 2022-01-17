@@ -14,12 +14,12 @@ export default function HeartRateInfo() {
         </p>
       </div>
 
-      <div className="met-results-horizontal"></div>
+      <div className="horizontal"></div>
 
       <div className="why-middle">
         <p>However, if you have been experencing chest pains, or palpitations, seek out your healthcare provider.</p>
 
-        <div className="met-results-horizontal"></div>
+        <div className="horizontal"></div>
 
         <div className="why-bottom">
           <p>There are 3 ranges associated with resting heart rate: <br />

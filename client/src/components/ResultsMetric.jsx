@@ -27,7 +27,7 @@ export default function ResultsPage() {
       <div className="results-metric">
 
 
-        <div className="met-results-horizontal"></div>
+        <div className="horizontal"></div>
 
         <div className="results-met-bottom">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses

@@ -30,15 +30,15 @@ export default function HeartRate() {
   };
   return (
     <div className="heart-page">
-      <h2 className="imp-header">Resting Heart Rate</h2>
-      <div className="imp-body">
+      <h2 className="header">Resting Heart Rate</h2>
+      <div className="body">
         <p>Please find a comfortable spot to sit in and relax for a few minutes.</p>
         <br />
         <p>When you are ready, please place your index and middle finger over your radial pulse. <br />
           Begin counting how many pulses you feel for 15 seconds. </p>
       </div>
 
-      <div className='imp-horizontal'></div>
+      <div className='horizontal'></div>
       <FormHeartRate input={input}
         handleSubmit={handleSubmit}
         handleHeartInput={handleHeartInput}

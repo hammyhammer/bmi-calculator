@@ -6,16 +6,16 @@ export default function Home() {
       <h1>Welcome to Self-Check</h1>
       <div className="horizontal"></div>
       <div>
-        <p className="imp-body">
+        <p className="body">
           At Self-Check, we offer free, and easy todo health assessments to gain a better understanding of
           one's health.
         </p>
       </div>
       <div>
-        <p className="imp-body">These assessments are preventive measures to keep us mindful and help us become aware to illness that might pop up unexpectedly.</p>
+        <p className="body">These assessments are preventive measures to keep us mindful and help us become aware to illness that might pop up unexpectedly.</p>
       </div>
       <div className="horizontal"></div>
-      <div className="imp-body">
+      <div className="body">
         <p>Please select any test to get started!</p>
       </div>
       <div className="home-links">

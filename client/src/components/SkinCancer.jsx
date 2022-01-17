@@ -29,11 +29,13 @@ export default function SkinCancer() {
   }
   return (
     <div>
-      <h2 className="imp-header">Skin Check</h2>
-      <div className="imp-body">
+      <h2 className="header">Skin Check</h2>
+      <div className='horizontal'></div>
 
-        <h5>Look for any moles that have either of the following:</h5>
-        <p className='moles'>
+      <div className="body">
+
+        <h5>Check the entirely of your body looking for the following:</h5>
+        <p>
           <br />
           Moles that are asymmetrical
           <br />
@@ -45,7 +47,8 @@ export default function SkinCancer() {
           <br />
           Moles that have moved or changed appearance
         </p>
-        <div className='imp-horizontal'></div>
+        <br />
+        <div className='horizontal'></div>
         <p>Have you noticed any of these? Check the box if yes.</p>
       </div>
 

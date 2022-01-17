@@ -13,12 +13,12 @@ export default function WhyBmi() {
         </p>
       </div>
 
-      <div className="met-results-horizontal"></div>
+      <div className="horizontal"></div>
 
       <div className="why-middle">
         <p>Some examples of chronic diseases include such as hypertension, type II diabetes, heart diease, and certain cancers<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[3]</a>.</p>
 
-        <div className="met-results-horizontal"></div>
+        <div className="horizontal"></div>
 
         <div className="why-bottom">
           <p>BMI has 4 categories: <br />
@@ -30,7 +30,7 @@ export default function WhyBmi() {
         </div>
         <Link
           to="/">
-          <button className="nav-button">Return Home</button>
+          <button className="info-button">Return Home</button>
         </Link>
 
       </div>

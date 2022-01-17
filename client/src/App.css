@@ -8,6 +8,16 @@ body {
   background-color: white;
 }
 
+
+.moles{
+  margin: 5px;
+}
+
+.skin-input {
+  border: 2px solid pink;
+}
+
+
 header {
   display: flex;
   justify-content: space-around;
@@ -67,11 +77,11 @@ header {
   margin: 15px 0px 0px 0px;
 }
 
-.imp-header {
+.header {
   font-size: 2.25vw;
 }
 
-.imp-body {
+.body {
   margin: 30px 20px 20px 20px;
   padding: 20px 0px;
   font-size: 1.5vw;
@@ -137,13 +147,6 @@ header {
   font-size: 1.5vw;
 }
 
-.met-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
-}
-
 .met-weight {
   margin: 40px 0px 20px 490px;
   padding: 3px 2px;
@@ -184,17 +187,10 @@ header {
   margin: 30px;
   font-size: 1.5vw;
 }
-
+ /* ///////////////////////////////////////////////////////////////////////////////// */
 .met-results-top {
   margin: 40px;
   font-size: 1.5vw;
-}
-
-.met-results-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
 }
 
 .results-met-bottom {
@@ -468,13 +464,6 @@ header {
   font-size: 5vw;
 }
 
-.met-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
-}
-
 .met-weight {
   margin: 40px 0px 20px 0px;
   padding: 3px 2px;
@@ -505,13 +494,6 @@ header {
 .met-results-top {
   margin: 40px;
   font-size: 4vw;
-}
-
-.met-results-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
 }
 
 .results-met-bottom {

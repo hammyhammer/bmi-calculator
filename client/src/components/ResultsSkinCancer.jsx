@@ -28,17 +28,18 @@ export default function ResultsSkinCancer() {
       <div className="results-metric">
 
 
-        <div className="met-results-horizontal"></div>
+        <div className="horizontal"></div>
 
         <div className="results-met-bottom">
           {sum.fields?.newMole ? <p>Reach out to your medical provider</p> : <p>No new moles and abnormalies at this time</p>}
         </div>
-        <div className="met-results-horizontal"></div>
-        <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
-
+        <div className="horizontal"></div>
+        <br />
+        <p className='body'>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
+        <br />
         <Link
           to="/skin-check-info">
-          <button className="nav-button">Learn more about skin checks</button>
+          <button className="info-button">Learn more about skin checks</button>
         </Link>
       </div>
     </div>
