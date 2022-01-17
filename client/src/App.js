@@ -11,6 +11,8 @@ import HeartRate from './components/HeartRate';
 
 import './App.css';
 import ResultsHeartRate from './components/ResultsHeartRate';
+import SkinCancer from './components/SkinCancer';
+import ResultsSkinCancer from './components/ResultsSkinCancer';
 
 function App() {
 
@@ -27,8 +29,8 @@ function App() {
         <Route path="/why-bmi" element={<WhyBmi />} />
         <Route path="/heart-rate" element={<HeartRate />} />
         <Route path="/heart-rate-results/:id" element={<ResultsHeartRate />} />
-        <Route path="/waist-to-hip" element={<div>This is waist to hip ratio page</div>} />
-        <Route path="/more-resources" element={<div>This is more resources page</div>} />
+        <Route path="/skin-check" element={<SkinCancer />} />
+        <Route path="/skin-check-results/:id" element={<ResultsSkinCancer />} />
 
       </Routes>
       <footer>

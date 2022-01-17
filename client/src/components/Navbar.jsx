@@ -18,10 +18,11 @@ export default function Navbar() {
         <button className="nav-button">Heart Rate</button>
       </Link>
 
-      <button className="nav-button">Skin Check</button>
-      {/* <button className="nav-button">More Resources</button> */}
-
-    </header>
+      <Link
+        to="/skin-check">
+        <button className="nav-button">Skin Check</button>
+      </Link>
+    </header >
 
   )
 }

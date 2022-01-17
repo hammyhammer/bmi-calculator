@@ -5,7 +5,7 @@ export default function FormSkinCancer(props) {
 
   return <form onSubmit={props.handleSubmit}>
     <br />
-    <input className="heart-input" id="newMole" value={newMole} type="checkbox" placeholder="Heartbeats Counted" onChange={props.handleHeartInput} />
+    <input className="heart-input" id="newMole" value={newMole} type="checkbox" placeholder="Please check if yes" onChange={props.handleHeartInput} />
     {/* <label className="icon-weight-met">
       <i className="fas fa-weight fa-3x"></i>
     </label>  */}

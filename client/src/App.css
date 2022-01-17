@@ -240,6 +240,7 @@ header {
   border: 1px solid orange;
   /* margin-bottom: 400px; */
   font-size: 1.5vw;
+  border: 2px solid blue
 } 
 
 .heart-image {
@@ -247,7 +248,6 @@ header {
   left: 18%;
   bottom: 10%;
   border-radius: 4px;
-  /* border: 2px solid blue; */
   width: 220px
 }
 
