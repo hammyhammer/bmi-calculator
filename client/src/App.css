@@ -87,13 +87,6 @@ header {
   font-size: 1.5vw;
 }
 
-.imp-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
-}
-
 .imp-weight {
   margin: 40px 0px 20px 500px;
   padding: 3px 2px;
@@ -323,6 +316,26 @@ footer a {
 
 }
 
+.home-links .info-button {
+  font-size: 4vw;
+}
+
+.header {
+  font-size: 6vw;
+  margin: 10px;
+}
+
+.why .header {
+  font-size: 5vw;
+  margin: 0px;
+  border: 2px solid pink;
+}
+
+.info-button {
+  font-size: 4vw;
+  margin: 20px;
+}
+
 .timer {
   border: 2px solid black;
   width: 100px;
@@ -425,15 +438,9 @@ header {
   font-size: 7vw;
 }
 
-.imp-body {
+.body {
   font-size: 5vw;
-}
-
-.imp-horizontal {
-  position: absolute;
-  left: 10%;
-  width: 80%;
-  border: 2px solid rgb(111,193, 193);
+  margin: 10px;
 }
 
 .imp-weight {
@@ -520,6 +527,8 @@ header {
 .why-bottom {
   padding: 10px;
 }
+
+
 
 
 footer {

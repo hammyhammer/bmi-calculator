@@ -38,8 +38,9 @@ export default function ResultsImperial() {
               sum.fields?.categoryImperial === "Normal" ? <a className="reference" href="https://www.aicr.org/resources/blog/a-normal-bmi-doesnt-mean-youre-healthy/">[2].</a> :
                 sum.fields?.categoryImperial === "Overweight" ? <a className="reference" href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi#risks-of-being-overweight-high-bmi-and-physically-inactive">[2].</a> :
                   <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[2].</a>}</p>
-
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
+
+
           <Link
             to="/why-bmi">
             <button className="info-button">Click here to learn more about BMI</button>

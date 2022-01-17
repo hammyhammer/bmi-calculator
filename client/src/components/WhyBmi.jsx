@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 export default function WhyBmi() {
   return (
-    <div>
-      <h2 className="why-header">Why BMI?</h2>
-      <div className="why-top">
-        <p>BMI is a simple and easy to do calculation that allows insight to any potential health issues.
+    <div classname="why">
+      <h2 className="header">Why BMI?</h2>
+      <div className="body">
+        <p>BMI is a formula that measures our body composition.
           It is important to note that BMI is a not a diagnosis of any illness<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Used">[1]</a>.
           <br />
           <br />
@@ -15,12 +15,12 @@ export default function WhyBmi() {
 
       <div className="horizontal"></div>
 
-      <div className="why-middle">
-        <p>Some examples of chronic diseases include such as hypertension, type II diabetes, heart diease, and certain cancers<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[3]</a>.</p>
+      <div className="body">
+        {/* <p>Some examples of chronic diseases include such as hypertension, type II diabetes, heart diease, and certain cancers<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[3]</a>.</p> */}
 
         <div className="horizontal"></div>
 
-        <div className="why-bottom">
+        <div className="body">
           <p>BMI has 4 categories: <br />
             Underweight: less than 18.5%. <br />
             Normal: 18.5% to less than 25%. <br />
