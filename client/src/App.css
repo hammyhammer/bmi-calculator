@@ -10,7 +10,6 @@ body {
 
 header {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   background-color: rgb(53, 201, 179);
   padding: 11px 0px 11px 0px;
@@ -73,7 +72,8 @@ header {
 }
 
 .imp-body {
-  margin: 40px 20px 50px 20px;
+  margin: 30px 20px 20px 20px;
+  padding: 20px 0px;
   font-size: 1.5vw;
 }
 
@@ -129,6 +129,7 @@ header {
   border: 1px solid orange;
   margin: 30px;
   font-size: 1.5vw;
+  
 }
 
 .met-body {
@@ -162,6 +163,10 @@ header {
 }
 
 .icon-height-met {
+  padding: 240px;
+}
+
+.icon-heart {
   padding: 240px;
 }
 
@@ -222,7 +227,7 @@ header {
 }
 
 .heart-input {
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 20px 490px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
@@ -238,16 +243,20 @@ header {
 } 
 
 .heart-image {
-  position: absolute;
-  right: 12%;
-  top: 45%;
-  width: 20%;
+  position: relative;
+  left: 18%;
+  bottom: 10%;
   border-radius: 4px;
   /* border: 2px solid blue; */
+  width: 220px
 }
 
 .timer {
+  position: relative;
+  left: 20%;
+  bottom: 16%;
   border: 2px solid black;
+  border-radius: 4px;
   width: 150px;
 }
 
@@ -415,7 +424,6 @@ header {
 }
 
 .imp-body {
-  margin: 40px 20px 50px 20px;
   font-size: 5vw;
 }
 
