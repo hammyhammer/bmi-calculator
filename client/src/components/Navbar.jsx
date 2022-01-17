@@ -18,7 +18,7 @@ export default function Navbar() {
         <button className="nav-button">Heart Rate</button>
       </Link>
 
-      <button className="nav-button">Hip to Waist</button>
+      <button className="nav-button">Skin Check</button>
       {/* <button className="nav-button">More Resources</button> */}
 
     </header>

@@ -20,7 +20,10 @@ header {
 
 }
 
-
+.home-links {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .nav-button {
   height: 30px;
@@ -307,6 +310,21 @@ footer a {
   margin: 1px;
   padding: 1px
 
+}
+
+.timer {
+  border: 2px solid black;
+  width: 100px;
+  font-size: 2.5vw;
+}
+
+.heart-image {
+  position: absolute;
+  right: 5%;
+  top: 69%;
+  width: 30%;
+  border-radius: 4px;
+  /* border: 2px solid blue; */
 }
 
 .icon-weight-met {
