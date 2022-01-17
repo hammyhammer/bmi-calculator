@@ -31,12 +31,24 @@ export default function SkinCancer() {
     <div>
       <h2 className="imp-header">Skin Check</h2>
       <div className="imp-body">
-        <p>Have you noticed any new moles, or different movements?</p>
-        <br />
-        <p></p>
+
+        <h5>Look for any moles that have either of the following:</h5>
+        <p className='moles'>
+          <br />
+          Moles that are asymmetrical
+          <br />
+          Moles with an irregular border
+          <br />
+          moles with an abnormal color
+          <br />
+          Moles with a diameter larger than a pencil's eraser
+          <br />
+          Moles that have moved or changed appearance
+        </p>
+        <div className='imp-horizontal'></div>
+        <p>Have you noticed any of these? Check the box if yes.</p>
       </div>
 
-      <div className='imp-horizontal'></div>
       <FormSkinCancer input={input}
         handleSubmit={handleSubmit}
         handleCheckbox={handleCheckbox}

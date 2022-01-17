@@ -28,7 +28,10 @@ export default function WhyBmi() {
             Obese: 30.0% or higher<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#InterpretedAdults">[4]</a>.</p>
 
         </div>
-
+        <Link
+          to="/">
+          <button className="nav-button">Return Home</button>
+        </Link>
 
       </div>
     </div>

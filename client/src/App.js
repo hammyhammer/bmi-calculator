@@ -36,6 +36,7 @@ function App() {
 
         <Route path="/skin-check" element={<SkinCancer />} />
         <Route path="/skin-check-results/:id" element={<ResultsSkinCancer />} />
+        <Route path="/skin-check-info" element={<div>Skin info</div>} />
 
       </Routes>
       <footer>
