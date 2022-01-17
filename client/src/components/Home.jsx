@@ -11,7 +11,6 @@ export default function Home() {
           one's health.
         </p>
       </div>
-      <div className="horizontal"></div>
       <div>
         <p className="imp-body">These assessments are preventive measures to keep us mindful and help us become aware to illness that might pop up unexpectedly.</p>
       </div>
@@ -21,16 +20,20 @@ export default function Home() {
       </div>
       <div className="home-links">
         <Link
-          to="/bmi">
-          <button>Body Mass Index</button>
+          to="/bmi"
+        >
+          <button className="info-button">Body Mass Index</button>
         </Link>
 
         <Link
           to="/heart-rate">
-          <button>Heart Rate</button>
+          <button className="info-button">Heart Rate</button>
         </Link>
 
-        <button>Skin Check</button>
+        <Link
+          to="/skin-check">
+          <button className="info-button">Skin Check</button>
+        </Link>
       </div>
 
     </div>

@@ -167,7 +167,13 @@ header {
 }
 
 .icon-heart {
-  padding: 240px;
+  padding: 205px;
+}
+
+.info-button {
+  border-radius: 4px;
+  font-size: 1.5vw;
+  background-color: rgb(111,193, 193);
 }
 
 .met-submit-button {
@@ -227,7 +233,7 @@ header {
 }
 
 .heart-input {
-  margin: 30px 0px 20px 490px;
+  margin: 30px 0px 20px 500px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;

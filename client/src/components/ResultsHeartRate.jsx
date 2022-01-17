@@ -42,7 +42,7 @@ export default function ResultsHeartRate() {
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
         </div>
         <Link to={"/heart-rate-info"}>
-          <button>Click here to learn more about heart rate</button>
+          <button className="info-button">Click here to learn more about heart rate</button>
         </Link>
       </div>
     </div>
