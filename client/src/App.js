@@ -8,6 +8,7 @@ import WhyBmi from './components/WhyBmi';
 import Home from './components/Home';
 import BmiHome from './components/BmiHome';
 import HeartRate from './components/HeartRate';
+import HeartRateInfo from './components/HeartRateInfo';
 
 import './App.css';
 import ResultsHeartRate from './components/ResultsHeartRate';
@@ -23,12 +24,16 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/bmi" element={<BmiHome />} />
         <Route path="/imperial" element={<ImperialSystem />} />
+        <Route path="/imperial-results/:id" element={<ResultsImperial />} />
+
         <Route path="/metric" element={<MetricSystem />} />
         <Route path="/metric-results/:id" element={<ResultsMetric />} />
-        <Route path="/imperial-results/:id" element={<ResultsImperial />} />
         <Route path="/why-bmi" element={<WhyBmi />} />
+
         <Route path="/heart-rate" element={<HeartRate />} />
         <Route path="/heart-rate-results/:id" element={<ResultsHeartRate />} />
+        <Route path="/heart-rate-info" element={<HeartRateInfo />} />
+
         <Route path="/skin-check" element={<SkinCancer />} />
         <Route path="/skin-check-results/:id" element={<ResultsSkinCancer />} />
 

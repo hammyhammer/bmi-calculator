@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import api from "../services/apiConfig"
 
 export default function ResultsSkinCancer() {
   const [sum, setSum] = useState({});
   const { id } = useParams();
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchSum = async () => {
@@ -32,7 +35,7 @@ export default function ResultsSkinCancer() {
         <div className="results-met-bottom">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
             <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
-          {sum.fields?.newMole ? <div>Please record the locations of the new moles</div> : <p>No new moles</p>}
+          {sum.fields?.newMole ? navigate(`/skin-check-locations${id}`) : <p>No new moles</p>}
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
         </div>
       </div>
