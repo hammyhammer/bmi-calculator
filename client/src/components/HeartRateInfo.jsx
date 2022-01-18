@@ -4,6 +4,8 @@ export default function HeartRateInfo() {
   return (
     <div className="test">
       <h2 className="why-header">Why Heart Rate?</h2>
+      <div className="horizontal"></div>
+      <br />
       <div className="why-top">
         <p>Our resting heart rate can provide some information regarding our fitness level, heart health and emotional health
           <a className="reference" href="https://www.sutterhealth.org/health/heart/get-to-know-your-heart-rate-it-might-save-your-life#:~:text=Track%20Your%20Heart%20Rate,dehydration%2C%20inactivity%20and%20persistent%20stress.">[1]</a>.

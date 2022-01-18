@@ -41,7 +41,7 @@ export default function SkinCancer() {
           <br />
           Moles with an irregular border
           <br />
-          moles with an abnormal color
+          Moles with an abnormal color
           <br />
           Moles with a diameter larger than a pencil's eraser
           <br />

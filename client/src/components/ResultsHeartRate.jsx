@@ -20,6 +20,8 @@ export default function ResultsHeartRate() {
     <div>
       <div className="met-results-top">
         <h2>Your RHR Results</h2>
+        <div className="horizontal"></div>
+        <br />
         <h3>Your resting heart rate is calculated to {sum.fields?.restingHeartRate}.
           <br />
           <br />

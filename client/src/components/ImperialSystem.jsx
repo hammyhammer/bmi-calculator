@@ -31,7 +31,8 @@ export default function ImperialSystem() {
   };
   return (
     <div>
-      <h2 className="header">Imperial System</h2>
+      <h2>Imperial System</h2>
+      <div className="horizontal"></div>
       <div className="body">
         <p>Please enter the following information listed down below.</p>
         <br />

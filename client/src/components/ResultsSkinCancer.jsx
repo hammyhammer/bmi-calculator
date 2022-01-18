@@ -17,7 +17,7 @@ export default function ResultsSkinCancer() {
 
   return (
     <div>
-      <div className="header">
+      <div>
         <h2>Skin Check Report</h2>
         <h3> {sum.fields?.newMole ? <p>Reach out to your medical provider</p> : <p>No new moles or abnormalities at this time. </p>}
         </h3>

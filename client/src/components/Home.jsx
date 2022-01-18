@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Self-Check</h1>
+      <h1>Welcome to Self-Chec</h1>
       <div className="horizontal"></div>
       <div>
         <p className="body">
-          At Self-Check, we offer free, and easy todo health assessments to gain a better understanding of
+          At Self-Chec, we offer free, and easy to do health assessments to gain a better understanding of
           one's health.
         </p>
       </div>
       <div>
-        <p className="body">These assessments are preventive measures to keep us mindful and help us become aware to illness that might pop up unexpectedly.</p>
+        <p className="body">These assessments are preventive tools to keep mindful of our health.</p>
       </div>
       <div className="horizontal"></div>
       <div className="body">

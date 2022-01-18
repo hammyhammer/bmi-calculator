@@ -10,6 +10,6 @@ export default function FormHeartRate(props) {
       <i class="fas fa-heartbeat fa-5x"></i>
     </label>
     <br />
-    <button className="imp-submit-button">{props.type}</button>
+    <button className="heart-submit-button">{props.type}</button>
   </form>
 }

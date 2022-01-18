@@ -4,6 +4,7 @@ export default function WhyBmi() {
   return (
     <div classname="why">
       <h2 className="header">Why BMI?</h2>
+      <div className="horizontal"></div>
       <div className="why-top">
         <p>It is important to note that BMI is a not a diagnosis of any illness<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Used">[1]</a>.
           <br />

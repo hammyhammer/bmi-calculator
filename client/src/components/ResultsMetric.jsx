@@ -16,8 +16,10 @@ export default function ResultsPage() {
 
   return (
     <div>
-      <div className="met-results-top">
-        <h2>Your Results</h2>
+      <div>
+        <h2>Your BMI Results</h2>
+        <br />
+        <div className="horizontal"></div>
         <h3>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%.
           <br />
           <br />
@@ -29,7 +31,7 @@ export default function ResultsPage() {
 
         <div className="horizontal"></div>
 
-        <div className="results-met-bottom">
+        <div className="body">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
             <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
           <p>{sum.fields?.riskCategory}

@@ -18,19 +18,19 @@ export default function ResultsImperial() {
 
   return (
     <div>
-      <div className="met-results-top">
+      <div>
         <h2>Your BMI Results</h2>
+        <div className="horizontal"></div>
+        <br />
         <h3>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationImperial).toFixed(2)}%.
           <br />
           <br />
           With a BMI of {Number.parseFloat(sum.fields?.calculationImperial).toFixed(2)}%,
           you are placed in the {sum.fields?.categoryImperial} category.</h3>
       </div>
-      <div className="results-metric">
-
-
+      <div>
         <div className="horizontal"></div>
-        <div className="results-met-bottom">
+        <div className="body">
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
             <a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
           <p>{sum.fields?.riskCategory}
