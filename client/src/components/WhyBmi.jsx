@@ -5,15 +5,13 @@ export default function WhyBmi() {
     <div classname="why">
       <h2 className="header">Why BMI?</h2>
       <div className="horizontal"></div>
+      <br />
       <div className="why-top">
         <p>It is important to note that BMI is a not a diagnosis of any illness<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Used">[1]</a>.
           <br />
           However, BMI is correlated with chronic diseases that are closely related body composition<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html">[2]</a>.
         </p>
       </div>
-
-      <div className="horizontal"></div>
-
       <div className="why-middle">
         <p>Some examples of chronic diseases include such as hypertension, type II diabetes, heart diease, and certain cancers<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[3]</a>.</p>
       </div>

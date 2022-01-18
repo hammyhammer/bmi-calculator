@@ -17,7 +17,7 @@ export default function ResultsPage() {
   return (
     <div>
       <div>
-        <h2>Your BMI Results</h2>
+        <h2 className="header">Your BMI Results</h2>
         <br />
         <div className="horizontal"></div>
         <h3>Your BMI is calculated to {Number.parseFloat(sum.fields?.calculationMetric).toFixed(2)}%.

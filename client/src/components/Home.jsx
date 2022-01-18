@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Self-Chec</h1>
+      <h1>Welcome to Self-Check</h1>
       <div className="horizontal"></div>
       <div>
         <p className="body">
-          At Self-Chec, we offer free, and easy to do health assessments to gain a better understanding of
+          At Self-Check, we offer free, and easy to do health assessments to gain a better understanding of
           one's health.
         </p>
       </div>
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className="horizontal"></div>
       <div className="body">
-        <p>Please select any test to get started!</p>
+        <p>Select any test to get started!</p>
       </div>
       <div className="home-links">
         <Link

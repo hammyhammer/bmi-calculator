@@ -32,7 +32,7 @@ export default function MetricSystem() {
 
   return (
     <div>
-      <h2>Metric System</h2>
+      <h2 className="header">Metric System</h2>
       <div className="horizontal"></div>
       <div className="body">
         <p>Please enter the following information listed down below.</p>

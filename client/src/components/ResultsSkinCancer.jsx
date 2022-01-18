@@ -9,7 +9,7 @@ export default function ResultsSkinCancer() {
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/skin/${id}`) //`/${id}`
+      const res = await api.get(`/skin/${id}`)
       setSum(res.data)
     }
     fetchSum();
@@ -18,9 +18,9 @@ export default function ResultsSkinCancer() {
   return (
     <div>
       <div>
-        <h2>Skin Check Report</h2>
-        <h3> {sum.fields?.newMole ? <p>Reach out to your medical provider</p> : <p>No new moles or abnormalities at this time. </p>}
-        </h3>
+        <h1>Skin Check Report</h1>
+        <h2> {sum.fields?.newMole ? <p>Reach out to your medical provider</p> : <p>No new moles or abnormalities at this time. </p>}
+        </h2>
       </div>
       <div className="horizontal"></div>
 
