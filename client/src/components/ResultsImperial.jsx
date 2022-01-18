@@ -12,7 +12,8 @@ export default function ResultsImperial() {
       setSum(res.data);
     }
     fetchSum();
-  }, [id]);
+    // eslint-disable-next-line
+  }, []);
 
 
 

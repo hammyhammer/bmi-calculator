@@ -13,7 +13,8 @@ export default function ResultsSkinCancer() {
       setSum(res.data);
     }
     fetchSum();
-  }, [id]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <div>

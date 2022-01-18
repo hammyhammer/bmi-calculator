@@ -12,7 +12,8 @@ export default function ResultsPage() {
       setSum(res.data);
     }
     fetchSum();
-  }, [id]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <div>
