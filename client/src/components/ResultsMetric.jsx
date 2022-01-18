@@ -12,7 +12,7 @@ export default function ResultsPage() {
       setSum(res.data);
     }
     fetchSum();
-  }, []);
+  }, [id]);
 
   return (
     <div>

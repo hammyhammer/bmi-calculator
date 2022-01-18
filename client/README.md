@@ -95,10 +95,10 @@ This web application allows a user to determine their BMI. The user can select b
 |---|---| ---|
 |January 8-10| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |January 10| Project Approval | Complete
-|January 11| Core Application Structure, foundational stylizing, render api | Incomplete
-|January 12| Input functionality| Incomplete
-|January 13| Styling/media query  | Incomplete
-|January 14| MVP | Incomplete
+|January 11| Core Application Structure, foundational stylizing, render api | Complete
+|January 12| Input functionality| Complete
+|January 13| Styling/media query  | Complete
+|January 14| MVP | Complete
 |January 18| Presentations | Incomplete
 
 ## Timeframes

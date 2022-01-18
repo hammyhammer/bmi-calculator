@@ -12,7 +12,7 @@ export default function ResultsImperial() {
       setSum(res.data);
     }
     fetchSum();
-  }, []);
+  }, [id]);
 
 
 

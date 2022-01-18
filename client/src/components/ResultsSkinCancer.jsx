@@ -13,7 +13,7 @@ export default function ResultsSkinCancer() {
       setSum(res.data);
     }
     fetchSum();
-  }, []);
+  }, [id]);
 
   return (
     <div>
