@@ -36,7 +36,7 @@ export default function ImperialSystem() {
         <p>Please enter the following information listed down below.</p>
         <br />
         <p>It is not necessary to enter the unit of measurement.
-          The prompted number value is all that is required.</p>
+          The number value is all that is required.</p>
       </div>
 
       <div className='horizontal'></div>

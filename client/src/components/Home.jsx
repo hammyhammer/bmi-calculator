@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Self-Check</h1>
+      <h1>Welcome to Self-Check!</h1>
       <div className="horizontal"></div>
       <div>
         <p className="body">
@@ -13,7 +13,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <p className="body">These assessments are preventive tools to keep mindful of our health.</p>
+        <p className="body">These assessments are preventive tools to keep one mindful of their health.</p>
       </div>
       <div className="horizontal"></div>
       <div className="body">

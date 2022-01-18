@@ -37,15 +37,15 @@ export default function SkinCancer() {
         <h5>Check the entirely of your body looking for the following:</h5>
         <p>
           <br />
-          Moles that are asymmetrical
+          Moles that are asymmetrical.
           <br />
-          Moles with an irregular border
+          Moles with an irregular border.
           <br />
-          Moles with an abnormal color
+          Moles with an abnormal color.
           <br />
-          Moles with a diameter larger than a pencil's eraser
+          Moles with a diameter larger than a pencil's eraser.
           <br />
-          Moles that have moved or changed appearance
+          Moles that have moved or changed appearance.
         </p>
         <br />
         <div className='horizontal'></div>

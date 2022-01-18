@@ -19,7 +19,7 @@ export default function WhyBmi() {
 
       <div className="why-bottom">
         <p>BMI has 4 categories: <br />
-          Underweight: less than 18.5%. <br />
+          Underweight: Less than 18.5%. <br />
           Normal: 18.5% to less than 25%. <br />
           Overweight: 25% to less than 30%. <br />
           Obese: 30.0% or higher<a className="reference" href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#InterpretedAdults">[4]</a>.</p>

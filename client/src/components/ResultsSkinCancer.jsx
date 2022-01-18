@@ -19,7 +19,7 @@ export default function ResultsSkinCancer() {
     <div>
       <div>
         <h1>Skin Check Report</h1>
-        <h2> {sum.fields?.newMole ? <p>Reach out to your medical provider</p> : <p>No new moles or abnormalities at this time. </p>}
+        <h2> {sum.fields?.newMole ? <p>Reach out to your medical provider.</p> : <p>No new moles or abnormalities at this time. </p>}
         </h2>
       </div>
       <div className="horizontal"></div>
@@ -27,9 +27,9 @@ export default function ResultsSkinCancer() {
       <div className="results-metric">
 
         <div className="body">
-          {sum.fields?.newMole ? <p>There is a chance that it is benign. See your dermatologist to seek further action</p> : <p>If you find yourself outside, remember to put on sunscreen to protect yourself from UV rays.</p>}
+          {sum.fields?.newMole ? <p>There is a chance that it is benign. See your dermatologist to seek further action.</p> : <p>If you find yourself outside, remember to put on sunscreen to protect yourself from UV rays.</p>}
         </div>
-        <p className='body'>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
+        <p className='body'>To gain more information or pursue action, reach out to your healthcare provider for additional information.</p>
         <br />
         <Link
           to="/skin-check-info">
