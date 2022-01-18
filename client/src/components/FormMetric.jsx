@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function Form(props) {
-  const { weightMetric, heightMetric } = props.input
+  const { weightMetric, heightMetric } = props.input;
 
   return <form onSubmit={props.handleSubmit}>
     <br />
@@ -18,5 +18,4 @@ export default function Form(props) {
     <br />
     <button className="met-submit-button">{props.type}</button>
   </form>
-
-}
+};

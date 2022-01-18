@@ -6,20 +6,20 @@ import Timer from './Timer';
 
 const default_input = {
   recordedBeats: "",
-}
+};
 
 export default function HeartRate() {
   const [input, setInput] = useState(default_input);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("/heart", { fields })
-    console.log(res.data)
-    setInput(default_input)
-    navigate(`/heart-rate-results/${res.data.id}`)
-  }
+    const res = await api.post("/heart", { fields });
+    setInput(default_input);
+    navigate(`/heart-rate-results/${res.data.id}`);
+  };
 
   const handleHeartInput = (event) => {
     const { id, valueAsNumber } = event.target;
@@ -51,5 +51,5 @@ export default function HeartRate() {
           src="https://cdn-prod.medicalnewstoday.com/content/images/articles/282/282760/two-fingers-feeling-for-radial-pulse.jpg" />
       </div>
     </div>
-  )
-}
+  );
+};

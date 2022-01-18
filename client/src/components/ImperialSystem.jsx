@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import api from '../services/apiConfig'
+import api from '../services/apiConfig';
 import FormImperial from './FormImperial';
 import { useNavigate } from 'react-router-dom';
 
@@ -7,19 +7,18 @@ const default_input = {
   weightImperial: "",
   heightFeet: "",
   heightInches: "",
-}
+};
 
 export default function ImperialSystem() {
   const [input, setInput] = useState(default_input);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("/imperial", { fields })
-    console.log(res.data)
-    setInput(default_input)
-    navigate(`/imperial-results/${res.data.id}`)
+    const res = await api.post("/imperial", { fields });
+    setInput(default_input);
+    navigate(`/imperial-results/${res.data.id}`);
   }
 
   const handleImperialInput = (event) => {
@@ -47,5 +46,5 @@ export default function ImperialSystem() {
         type={"Submit"}
       />
     </div>
-  )
-}
+  );
+};

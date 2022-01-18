@@ -1,12 +1,12 @@
 import api from '../services/apiConfig';
-import { useState } from 'react'
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import FormMetric from './FormMetric'
+import FormMetric from './FormMetric';
 
 const default_input = {
   weightMetric: "",
   heightMetric: "",
-}
+};
 
 export default function MetricSystem() {
   const [input, setInput] = useState(default_input);
@@ -16,12 +16,10 @@ export default function MetricSystem() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("/calculator", { fields })
-    console.log(res.data)
-    setInput(default_input)
-    navigate(`/metric-results/${res.data.id}`)
+    const res = await api.post("/calculator", { fields });
+    setInput(default_input);
+    navigate(`/metric-results/${res.data.id}`);
   }
-  //line 19 was "", {fields}
   const handleMetricInput = (event) => {
     const { id, valueAsNumber } = event.target
     setInput(prevInput => ({
@@ -47,5 +45,5 @@ export default function MetricSystem() {
         type={"Submit"}
       />
     </div>
-  )
-}
+  );
+};

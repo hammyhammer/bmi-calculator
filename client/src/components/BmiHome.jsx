@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 export default function Home() {
   return (
     <div className='bmi-home'>
@@ -9,7 +10,6 @@ export default function Home() {
         <p>BMI (Body Mass Index) is a measurement between the ratio of your height and weight.
           It is a good way to gauge your body's composition.
         </p>
-        {/* <br /> */}
         <p>With BMI, we can gain insight to potential health-related issues in a safe and quick manner.</p>
       </div>
 
@@ -29,5 +29,5 @@ export default function Home() {
 
       </div>
     </div>
-  )
-}
+  );
+};

@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import api from "../services/apiConfig"
+import { useState, useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import api from "../services/apiConfig";
 
 export default function ResultsImperial() {
-  const [sum, setSum] = useState({})
+  const [sum, setSum] = useState({});
   const { id } = useParams();
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/imperial/${id}`)
-      setSum(res.data)
+      const res = await api.get(`/imperial/${id}`);
+      setSum(res.data);
     }
     fetchSum();
   }, []);
@@ -48,5 +48,5 @@ export default function ResultsImperial() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

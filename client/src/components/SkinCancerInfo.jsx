@@ -27,5 +27,5 @@ export default function SkinCancerInfo() {
 
       </div>
     </div>
-  )
-}
+  );
+};

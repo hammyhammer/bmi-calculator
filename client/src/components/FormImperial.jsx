@@ -1,15 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { findIconDefinition, icon } from '@fortawesome/fontawesome-svg-core'
-library.add(fas, fab)
+library.add(fas, fab);
 
-const glasses = findIconDefinition({ prefix: 'fas', iconName: 'glasses' })
-const i = icon(glasses)
 
 export default function FormImperial(props) {
-  const { weightImperial, heightFeet, heightInches } = props.input
+  const { weightImperial, heightFeet, heightInches } = props.input;
 
   return (
     <div>
@@ -33,5 +30,5 @@ export default function FormImperial(props) {
         <button className="imp-submit-button">{props.type}</button>
       </form>
     </div>
-  )
-}
+  );
+};

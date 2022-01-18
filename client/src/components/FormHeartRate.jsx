@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function FormHeartRate(props) {
-  const { recordedBeats } = props.input
+  const { recordedBeats } = props.input;
 
   return <form onSubmit={props.handleSubmit}>
     <br />
@@ -12,4 +12,4 @@ export default function FormHeartRate(props) {
     <br />
     <button className="heart-submit-button">{props.type}</button>
   </form>
-}
+};

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import api from "../services/apiConfig"
+import api from "../services/apiConfig";
 
 export default function ResultsSkinCancer() {
   const [sum, setSum] = useState({});
@@ -9,8 +9,8 @@ export default function ResultsSkinCancer() {
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/skin/${id}`)
-      setSum(res.data)
+      const res = await api.get(`/skin/${id}`);
+      setSum(res.data);
     }
     fetchSum();
   }, []);
@@ -37,5 +37,5 @@ export default function ResultsSkinCancer() {
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};

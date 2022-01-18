@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import api from "../services/apiConfig"
+import api from "../services/apiConfig";
 
 export default function ResultsPage() {
   const [sum, setSum] = useState({});
@@ -8,8 +8,8 @@ export default function ResultsPage() {
 
   useEffect(() => {
     const fetchSum = async () => {
-      const res = await api.get(`/calculator/${id}`) //`/${id}`
-      setSum(res.data)
+      const res = await api.get(`/calculator/${id}`);
+      setSum(res.data);
     }
     fetchSum();
   }, []);
@@ -48,6 +48,5 @@ export default function ResultsPage() {
         <Link to={`/metric-results/${id}`}></Link>
       </div>
     </div>
-  )
-}
-// Link is a new try
+  );
+};
