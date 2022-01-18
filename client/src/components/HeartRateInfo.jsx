@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function HeartRateInfo() {
   return (
-    <div className="test">
+    <div className="heart-info">
       <h2 className="why-header">Why Heart Rate?</h2>
       <div className="horizontal"></div>
       <br />
