@@ -255,14 +255,10 @@ header {
   width: 150px;
 }
 
-/* .bmi-home{
-  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/56/63/abstract-heart-pulse-medical-background-vector-2055663.jpg");
-  background-size: contain;
-  position: absolute;
-} */
+
 
 footer {
-  /* margin: auto; */
+  margin: auto;
   display: flex;
   flex-shrink: 0;
   width: 100vw;
@@ -270,28 +266,26 @@ footer {
   bottom: 0;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: rgb(111, 193, 193);
   padding: 0px;
   border-top: 4px solid blue;
 
 }
 
-/* positiion: relative width 100%  */
-
 footer a {
   display: flex;
   justify-content: flex-end;
-  width: 40%;
-  height: 40%;
+  width: 30px;
+
 }
 
 .link { 
   display: flex;
   justify-content: flex-end; 
   padding: 10px 20px 10px 30px;
-  width: 5%;
-  height: 5%;
+  width: 80%;
+  height: 80%;
 } 
 
  .git { 
@@ -299,9 +293,9 @@ footer a {
   flex-direction: row;
   justify-content: flex-start;  
   align-self: flex-end;
-  padding: 10px 0px 10px 0px;
-  width: 5%;
-  height: 5%;
+  padding: 10px 50px 10px 0px;
+  width: 80%;
+  height: 80%;
 }
 
 .skin-submit-button {
@@ -580,9 +574,6 @@ header {
   padding: 10px;
 }
 
-
-
-
 footer {
   margin: auto;
   display: flex;
@@ -590,9 +581,8 @@ footer {
   width: 100vw;
   position: absolute;
   bottom: 0;
-  flex-direction: row;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: rgb(111, 193, 193);
   padding: 0px;
 }
@@ -600,26 +590,25 @@ footer {
 footer a {
   display: flex;
   justify-content: flex-end;
-  width: 40%;
-  height: 40%;
+  width: 30px;
 }
 
 .link { 
   display: flex;
   justify-content: flex-end; 
   padding: 10px 20px 10px 30px;
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
 } 
 
  .git { 
   display: flex;
   flex-direction: row;
   justify-content: flex-start;  
-   align-self: flex-end;
-  padding: 10px 0px 10px 0px;
-  width: 10%;
-  height: 10%;
+  align-self: flex-end;
+  padding: 10px 20px 10px 0px;
+  width: 50%;
+  height: 50%;
 }
 
 

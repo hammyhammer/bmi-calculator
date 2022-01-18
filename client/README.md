@@ -117,23 +117,23 @@ This web application allows a user to determine their BMI. The user can select b
 |Create Imperial System|H|3hrs|3.5hrs|3.5hrs|
 |Create Metric System|H|3hrs|3hrs|3hrs|
 |Create Results Page|H|2.5hrs|3hr|3hrs
-|Create logic to display Results|H|3hrs|2hrs|2hrs|
-|Adding Form|H|3hrs|2hrs|2hrs|
-|Handle submit functionality|H|1hr|1hr|1hr|
+|Create logic to display Results|H|3hrs|3.5hrs|2hrs|
+|Adding Form|H|3hrs|4hrs|4hrs|
+|Handle submit functionality|H|1hr|2hr|2hr|
 |Input functionality|H|1.5hrs|1hr|1hr|
 |Create Post functionality|H|1hr|1.5hrs|1.5hrs|
-|Create Why BMI? page|H|2hrs|1hr|1hr|
-|Add Linkedin and Git icons|M|1.5hrs|NA|NA|
+|Create Why BMI? page|H|2hrs|2.5hr|2.5hr|
+|Add Linkedin and Git icons|M|1.5hrs|2hrs|2hrs|
 |Add title for page and tab icon|M|1.5hrs|NA|NA
-|Stylize Header|M|1.5hrs|NA|NA|
-|Stylize text and alignment|H|3hrs|2hrs|2hrs|
-|Display results|H|2hrs|1.5hrs|1.5hrs|
-|Media query|H|3hrs|3hrs|3hrs|
+|Stylize Header|M|1.5hrs|2hrs|2hrs|
+|Stylize text and alignment|H|3hrs|3.5hrs|3.5hrs|
+|Display results|H|2hrs|3.5hrs|3.5hrs|
+|Media query|H|3hrs|5hrs|5hrs|
 |Create intuitive Imperial input|L|3.5hrs|3hrs|3hrs|
 |Utilize loading animation|L|2hrs|NA|NA|
 |Create local storage|L|3.5hrs|NA|NA|
-|Create references in information|L|3.5|3hrs|3hrs|
-| Total|H|51hrs|NA|NA|
+|Create references in information|L|3.5|5hrs|5hrs|
+| Total|H|51hrs|51.5|51.5|
 
 ## SWOT Analysis
 

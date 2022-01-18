@@ -8,20 +8,10 @@ export default function Navbar() {
         <button className="nav-button">Home</button>
       </Link>
 
-      <Link
-        to="/bmi">
-        <button className="nav-button">Body Mass Index</button>
-      </Link>
+      <button className="nav-button">My Results</button>
 
-      <Link
-        to="/heart-rate">
-        <button className="nav-button">Heart Rate</button>
-      </Link>
+      <button className="nav-button">More Resources</button>
 
-      <Link
-        to="/skin-check">
-        <button className="nav-button">Skin Check</button>
-      </Link>
     </header >
 
   );
