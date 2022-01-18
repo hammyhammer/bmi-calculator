@@ -49,7 +49,9 @@ export default function SkinCancer() {
         </p>
         <br />
         <div className='horizontal'></div>
-        <p>Have you noticed any of these? Check the box if yes.</p>
+        <div>
+          <p>Have you noticed any of these? Check the box if yes.</p>
+        </div>
       </div>
 
       <FormSkinCancer input={input}

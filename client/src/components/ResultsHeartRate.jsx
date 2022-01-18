@@ -47,9 +47,3 @@ export default function ResultsHeartRate() {
     </div>
   )
 }
-
-
-<Link
-  to="/why-bmi">
-  <button>Click here to learn more about BMI</button>
-</Link>

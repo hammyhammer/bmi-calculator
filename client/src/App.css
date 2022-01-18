@@ -209,6 +209,7 @@ header {
 
 .why-bottom {
   padding: 10px;
+  font-size: 1.75vw;
 }
 
 .reference {
@@ -304,6 +305,15 @@ footer a {
   height: 5%;
 }
 
+.skin-submit-button {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 30px;
+  font-size: 5vw;}
+
+
 
 
 
@@ -323,6 +333,10 @@ footer a {
 .header {
   font-size: 6vw;
   margin: 10px;
+}
+
+.why-bottom {
+  font-size: 5vw;
 }
 
 .why .header {
@@ -470,6 +484,43 @@ header {
   margin: 40px 20px 50px 20px;
   font-size: 5vw;
 }
+
+.heart-image {
+  display: none;
+}
+
+.icon-heart {
+  display: none;
+}
+
+.heart-input {
+  margin: 30px 0px 20px 10px;
+}
+
+.timer {
+  left: 10%;
+}
+
+.test .why-top {
+  font-size: 4.5vw;
+}
+
+.test .why-bottom {
+  font-size: 4.5vw;
+}
+
+.test .why-middle {
+  font-size: 4.5vw;
+}
+
+
+.skin-submit-button {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 10px;
+  font-size: 5vw;}
 
 .met-weight {
   margin: 40px 0px 20px 0px;

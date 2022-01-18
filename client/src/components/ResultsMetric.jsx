@@ -40,7 +40,7 @@ export default function ResultsPage() {
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
           <Link
             to="/why-bmi">
-            <button>Click here to learn more about BMI</button>
+            <button className="info-button">Click here to learn more about BMI</button>
           </Link>
         </div>
         <Link to={`/metric-results/${id}`}></Link>
