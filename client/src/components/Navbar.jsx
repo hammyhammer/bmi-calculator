@@ -7,11 +7,12 @@ export default function Navbar() {
         to="/">
         <button className="nav-button">Home</button>
       </Link>
-
-      <button className="nav-button">My Results</button>
-
-      <button className="nav-button">More Resources</button>
-
+      <Link to='/results'>
+        <button className="nav-button">My Results</button>
+      </Link>
+      <Link to='/resources'>
+        <button className="nav-button">More Resources</button>
+      </Link>
     </header >
 
   );

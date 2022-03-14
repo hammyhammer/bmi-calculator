@@ -15,7 +15,8 @@ import ResultsHeartRate from './components/ResultsHeartRate';
 import SkinCancer from './components/SkinCancer';
 import ResultsSkinCancer from './components/ResultsSkinCancer';
 import SkinCancerInfo from './components/SkinCancerInfo';
-
+import Resources from './components/Resources';
+import Results from './components/Results';
 
 function App() {
 
@@ -39,6 +40,10 @@ function App() {
         <Route path="/skin-check" element={<SkinCancer />} />
         <Route path="/skin-check-results/:id" element={<ResultsSkinCancer />} />
         <Route path="/skin-check-info" element={<SkinCancerInfo />} />
+
+        <Route path='/resources' element={<Resources />} />
+        <Route path='/results' element={<Results />} />
+
 
       </Routes>
       <footer>
