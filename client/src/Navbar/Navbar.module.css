@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(53, 201, 179);
+  padding: 11px 0px;
+  border-bottom: 4px solid rgb(0, 0, 255);
+}
+
+.nav_button {
+  height: 30px;
+  border-radius: 4px;
+}

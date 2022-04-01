@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
+import navcss from './Navbar.module.css';
 
 export default function Navbar() {
   return (
-    <header>
+    <header className={navcss.header}>
       <Link
         to="/">
-        <button className="nav-button">Home</button>
+        <button className={navcss.nav_button}>Home</button>
       </Link>
       <Link to='/results'>
-        <button className="nav-button">My Results</button>
+        <button className={navcss.nav_button}>My Results</button>
       </Link>
       <Link to='/resources'>
-        <button className="nav-button">More Resources</button>
+        <button className={navcss.nav_button}>More Resources</button>
       </Link>
     </header >
 
