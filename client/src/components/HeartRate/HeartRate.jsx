@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import api from '../services/apiConfig'
-import FormHeartRate from './FormHeartRate';
+import api from '../../services/apiConfig'
+import FormHeartRate from '../FormHeartRate/FormHeartRate';
 import { useNavigate } from 'react-router-dom';
-import Timer from './Timer';
+import Timer from '../../Timer/Timer';
 
 const default_input = {
   recordedBeats: "",

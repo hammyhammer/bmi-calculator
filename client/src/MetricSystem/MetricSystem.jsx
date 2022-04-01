@@ -1,7 +1,7 @@
 import api from '../services/apiConfig';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import FormMetric from './FormMetric';
+import FormMetric from '../components/FormMetric/FormMetric';
 
 const default_input = {
   weightMetric: "",

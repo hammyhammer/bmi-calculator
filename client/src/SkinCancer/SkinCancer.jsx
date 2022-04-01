@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import api from '../services/apiConfig';
-import FormSkinCancer from './FormSkinCancer';
+import FormSkinCancer from '../components/FormSkinCancer/FormSkinCancer';
 import { useNavigate } from 'react-router-dom';
 
 const default_input = {

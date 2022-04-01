@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import api from '../services/apiConfig';
-import FormImperial from './FormImperial';
+import api from '../../services/apiConfig';
+import FormImperial from '../../FormImperial/FormImperial';
 import { useNavigate } from 'react-router-dom';
 
 const default_input = {

@@ -1,21 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import MetricSystem from './components/MetricSystem';
-import ResultsMetric from './components/ResultsMetric';
-import ImperialSystem from './components/ImperialSystem';
-import ResultsImperial from './components/ResultsImperial';
-import WhyBmi from './components/WhyBmi';
-import Home from './components/Home';
-import BmiHome from './components/BmiHome';
-import HeartRate from './components/HeartRate';
-import HeartRateInfo from './components/HeartRateInfo';
+import Navbar from './Navbar/Navbar';
+import MetricSystem from './MetricSystem/MetricSystem';
+import ResultsMetric from './ResultsMetric/ResultsMetric';
+import ImperialSystem from './components/ImperialSystem/ImperialSystem';
+import ResultsImperial from './ResultsImperial/ResultsImperial';
+import WhyBmi from './WhyBmi/WhyBmi';
+import Home from './components/Home/Home';
+import BmiHome from './components/BmiHome/BmiHome';
+import HeartRate from './components/HeartRate/HeartRate';
+import HeartRateInfo from './components/HeartRateInfo/HeartRateInfo';
 
 import './App.css';
-import ResultsHeartRate from './components/ResultsHeartRate';
-import SkinCancer from './components/SkinCancer';
-import ResultsSkinCancer from './components/ResultsSkinCancer';
-import SkinCancerInfo from './components/SkinCancerInfo';
-import Resources from './components/Resources';
+import ResultsHeartRate from './ResultsHeartRate/ResultsHeartRate';
+import SkinCancer from './SkinCancer/SkinCancer';
+import ResultsSkinCancer from './ResultsSkinCancer/ResultsSkinCancer';
+import SkinCancerInfo from './SkinCancerInfo/SkinCancerInfo';
+import Resources from './components/Resources/Resources';
 import Results from './components/Results';
 
 function App() {
