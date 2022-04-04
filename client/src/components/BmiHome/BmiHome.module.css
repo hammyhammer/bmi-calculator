@@ -1,0 +1,32 @@
+.bmi_home {
+
+}
+
+.header {
+  font-size: 6vw;
+  margin: 10px;
+}
+
+.main_body {
+  font-size: 4.5vw;
+  margin: 30px 30px 0px 30px
+}
+
+.bottom {
+  font-size: 4.5vw;
+  padding: 15px;
+}
+
+.imperial {
+  background-color: orange;
+  font-size: 20px;
+  margin: 5px 0px 0px 0px;
+}
+
+.metric {
+  background-color: red;
+  padding: 0px 11.5px;
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+
+}

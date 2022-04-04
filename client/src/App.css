@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-color: white;
 }
@@ -294,11 +294,6 @@ footer a {
   font-size: 4vw;
 }
 
-.header {
-  font-size: 6vw;
-  margin: 10px;
-}
-
 .why-bottom {
   font-size: 5vw;
 }
@@ -393,29 +388,29 @@ header {
   font-size: 7vw;
 }
 
-.home-main-body {
+/* .home-main-body {
   font-size: 4.5vw;
   margin: 30px 30px 0px 30px
-}
+} */
 
-.bottom {
+/* .bottom {
   font-size: 4.5vw;
   padding: 15px;
-}
+} */
 
-.imperial {
+/* .imperial {
   background-color: orange;
   font-size: 20px;
   margin: 5px 0px 0px 0px;
-}
+} */
 
-.metric {
+/* .metric {
   background-color: red;
   padding: 0px 11.5px;
   font-size: 20px;
   margin: 10px 0px 0px 0px;
 
-}
+} */
 
 .imp-header {
   font-size: 7vw;
