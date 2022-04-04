@@ -2,6 +2,7 @@ import { useState } from 'react';
 import api from '../../services/apiConfig';
 import FormImperial from '../../FormImperial/FormImperial';
 import { useNavigate } from 'react-router-dom';
+import imperialcss from './ImperialSystem.module.css'
 
 const default_input = {
   weightImperial: "",
@@ -30,9 +31,9 @@ export default function ImperialSystem() {
   };
   return (
     <div>
-      <h2 className="header">Imperial System</h2>
+      <h2 className={imperialcss.header}>Imperial System</h2>
       <div className="horizontal"></div>
-      <div className="body">
+      <div className={imperialcss.body}>
         <p>Please enter the following information listed down below.</p>
         <br />
         <p>It is not necessary to enter the unit of measurement.
