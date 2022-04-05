@@ -1,0 +1,22 @@
+.met_weight {
+  margin: 40px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.met_height {
+  margin: 30px 0px 20px 0px;
+  padding: 3px 2px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.submit {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 30px;
+  font-size: 5vw;
+}

@@ -2,6 +2,7 @@ import api from '../services/apiConfig';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import FormMetric from '../components/FormMetric/FormMetric';
+import metrichomecss from './MetricSystem.module.css'
 
 const default_input = {
   weightMetric: "",
@@ -30,9 +31,9 @@ export default function MetricSystem() {
 
   return (
     <div>
-      <h2 className="header">Metric System</h2>
+      <h2 className={metrichomecss.header}>Metric System</h2>
       <div className="horizontal"></div>
-      <div className="body">
+      <div className={metrichomecss.body}>
         <p>Please enter the following information listed down below.</p>
         <br />
         <p>It is not necessary to enter the unit of measurement.
