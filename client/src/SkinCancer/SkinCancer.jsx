@@ -2,6 +2,7 @@ import { useState } from 'react';
 import api from '../services/apiConfig';
 import FormSkinCancer from '../components/FormSkinCancer/FormSkinCancer';
 import { useNavigate } from 'react-router-dom';
+import skincancercss from './SkinCancer.module.css'
 
 const default_input = {
   newMole: false,
@@ -29,10 +30,10 @@ export default function SkinCancer() {
 
   return (
     <div>
-      <h2 className="header">Skin Check</h2>
+      <h2 className={skincancercss.header}>Skin Check</h2>
       <div className='horizontal'></div>
 
-      <div className="body">
+      <div className={skincancercss.body}>
 
         <h5>Check the entirely of your body looking for the following:</h5>
         <p>

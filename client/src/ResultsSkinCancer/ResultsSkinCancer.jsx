@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import api from "../services/apiConfig";
+import skinresultscss from './ResultsSkinCancer.module.css'
 
 export default function ResultsSkinCancer() {
   const [sum, setSum] = useState({});
@@ -15,6 +16,7 @@ export default function ResultsSkinCancer() {
     fetchSum();
     // eslint-disable-next-line
   }, []);
+  // "results-metric"
 
   return (
     <div>
@@ -25,16 +27,15 @@ export default function ResultsSkinCancer() {
       </div>
       <div className="horizontal"></div>
 
-      <div className="results-metric">
-
-        <div className="body">
+      <div className={skinresultscss.results}>
+        <div className={skinresultscss.body}>
           {sum.fields?.newMole ? <p>There is a chance that it is benign. See your dermatologist to seek further action.</p> : <p>If you find yourself outside, remember to put on sunscreen to protect yourself from UV rays.</p>}
         </div>
-        <p className='body'>To gain more information or pursue action, reach out to your healthcare provider for additional information.</p>
+        <p className={skinresultscss.body}>To gain more information or pursue action, reach out to your healthcare provider for additional information.</p>
         <br />
         <Link
           to="/skin-check-info">
-          <button className="info-button">Learn more about skin checks</button>
+          <button className={skinresultscss.info_button}>Learn more about skin checks</button>
         </Link>
       </div>
     </div>

@@ -466,12 +466,13 @@ header {
 
 
 .skin-submit-button {
-  background-color: orange;
+  /* background-color: orange;
   border-radius: 4px;
   padding: 2px 10px 2px 10px;
   border: 1px solid orange;
   margin: 10px;
-  font-size: 5vw;}
+  font-size: 5vw; */
+}
 
 .met-weight {
   /* margin: 40px 0px 20px 0px;
@@ -497,7 +498,7 @@ header {
 }
 
 .results-metric {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .met-results-top {
@@ -515,7 +516,7 @@ header {
   font-size: 7vw;
 }
 
-.why-top {
+/* .why-top {
   margin: 20px 40px 40px 40px ;
   font-size: 5vw;
 }
@@ -528,7 +529,7 @@ header {
 
 .why-bottom {
   padding: 10px;
-}
+} */
 
 footer {
   margin: auto;

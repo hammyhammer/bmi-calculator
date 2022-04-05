@@ -1,0 +1,8 @@
+.submit {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid orange;
+  margin: 10px;
+  font-size: 5vw;
+}
