@@ -7,7 +7,7 @@ export default function FormHeartRate(props) {
   return <form onSubmit={props.handleSubmit}>
     <br />
     <input className={formheartcss.input} id="recordedBeats" value={recordedBeats} type="number" placeholder="Heartbeats Counted" onChange={props.handleHeartInput} />
-    <label className="icon-heart">
+    <label className={formheartcss.icon_heart}>
       <i class="fas fa-heartbeat fa-5x"></i>
     </label>
     <br />

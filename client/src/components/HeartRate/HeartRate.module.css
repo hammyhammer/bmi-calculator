@@ -1,18 +1,35 @@
 .header {
-
+  font-size: 7vw;
 }
 
 .image {
   display: none;
-  position: absolute;
-  left: 48%;
-  top: 72%;
-  width: 30%;
-  border-radius: 4px;
 }
 
 .body {
   font-size: 5vw;
   margin: 10px;
   padding: 20px 0px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    font-size: 2.25vw;
+  }
+  
+  .body {
+    font-size: 1.75vw;
+    margin: 10px;
+    padding: 10px 0px;
+  }
+
+  .image {
+    display: flex;
+    position: absolute;
+    right: 13%;
+    top: 72%;
+    border-radius: 4px;
+  }
+
 }

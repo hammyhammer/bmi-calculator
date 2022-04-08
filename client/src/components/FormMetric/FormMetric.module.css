@@ -24,51 +24,24 @@
 @media only screen and (min-width: 1000px) {
   .met_weight {
     margin: 40px 0px 20px 500px;
-    /* width: 60px; */
-    border: 2px solid cyan;
-
+    margin-left: 21%;
+    width: 7%;
   }
   
   .met_height {
     margin: 40px 0px 20px 500px;
-    padding: 3px 2px;
-    border-radius: 7px;
-    border: 2px solid cyan;
-    /* width: 60px; */
+    margin-left: 21%;
+    width: 7%;
   }
 
   .icon_height {
-    padding: 240px;
+    padding: 0px 100px;
+    width: 10%;
   }
   
   .icon_weight {
-    padding: 225px
-  }
-  
-
-
-  
-  .met_inch {
-    margin: 30px 0px 20px 460px;
-  }
-  
-  .imp_feet {
-    padding: 3px 2px;
-    border-radius: 7px;
-    border: 2px solid black;
-    width:40px
-  }
-  
-  .imp_inches {
-    padding: 3px 2px;
-    border-radius: 7px;
-    border: 2px solid black;
-    width:55px;
-  }
-
-
-
-
+    padding: 0px 90px;
+    width: 10%;  }
 
 
   .submit {
