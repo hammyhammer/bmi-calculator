@@ -20,3 +20,63 @@
   margin: 30px;
   font-size: 5vw;
 }
+
+@media only screen and (min-width: 1000px) {
+  .met_weight {
+    margin: 40px 0px 20px 500px;
+    /* width: 60px; */
+    border: 2px solid cyan;
+
+  }
+  
+  .met_height {
+    margin: 40px 0px 20px 500px;
+    padding: 3px 2px;
+    border-radius: 7px;
+    border: 2px solid cyan;
+    /* width: 60px; */
+  }
+
+  .icon_height {
+    padding: 240px;
+  }
+  
+  .icon_weight {
+    padding: 225px
+  }
+  
+
+
+  
+  .met_inch {
+    margin: 30px 0px 20px 460px;
+  }
+  
+  .imp_feet {
+    padding: 3px 2px;
+    border-radius: 7px;
+    border: 2px solid black;
+    width:40px
+  }
+  
+  .imp_inches {
+    padding: 3px 2px;
+    border-radius: 7px;
+    border: 2px solid black;
+    width:55px;
+  }
+
+
+
+
+
+
+  .submit {
+    background-color: orange;
+    border-radius: 4px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid orange;
+    margin: 30px;
+    font-size: 1.5vw;
+  }
+}

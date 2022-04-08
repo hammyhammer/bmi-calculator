@@ -1,7 +1,8 @@
+/* iPhone 6/7/8 */
 .App {
   text-align: center;
-  height: auto;
-  width: 100%;
+  /* height: auto;
+  width: 100%; */
   background-color: white;
 }
 
@@ -13,6 +14,157 @@
 }
 
 
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(111, 193, 193);
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+  height: 10%;
+  padding: 10px 10px;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 60%;
+}
+
+.git {
+  width: 60%;
+  height: 60%;
+}
+
+
+/* footer {
+  margin: auto;
+  display: flex;
+  flex-shrink: 0;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: rgb(111, 193, 193);
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-end;
+  width: 30px;
+}
+
+.link { 
+  display: flex;
+  justify-content: flex-end; 
+  padding: 10px 20px 10px 30px;
+  width: 50%;
+  height: 50%;
+} 
+
+ .git { 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  
+  align-self: flex-end;
+  padding: 10px 20px 10px 0px;
+  width: 50%;
+  height: 50%;
+} */
+
+
+
+@media only screen and (min-width: 1000px) {
+  footer {
+    width: 100%;
+  }
+  
+  footer a {
+    width: 10%;
+    height: 10%;
+    padding: 10px 10px;
+  }
+
+  .link {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .git {
+    width: 30%;
+    height: 30%;
+  }
+  
+  
+  /* footer {
+    margin: auto;
+    display: flex;
+    flex-shrink: 0;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: rgb(111, 193, 193);
+    padding: 0px;
+    border-top: 4px solid blue;
+  }
+
+  footer a {
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+  }
+
+  .link { 
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px 20px 10px 30px;
+    width: 80%;
+    height: 80%;
+  } 
+
+  .git { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    align-self: flex-end;
+    padding: 10px 50px 10px 0px;
+    width: 80%;
+    height: 80%;
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .moles{
   margin: 5px;
 }
@@ -22,8 +174,8 @@
 }
 
 .home-header {
-  font-size: 2.5vw;
-  margin: 40px;
+  /* font-size: 2.5vw;
+  margin: 40px; */
 }
 
 .home-main-body {
@@ -65,11 +217,11 @@
 }
 
 .imp-weight {
-  margin: 40px 0px 20px 500px;
+  /* margin: 40px 0px 20px 500px;
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
-  width: 60px;
+  width: 60px; */
 }
 
 .icon-weight {
@@ -77,7 +229,7 @@
 }
 
 .foot-inch {
-  margin: 30px 0px 20px 460px;
+  /* margin: 30px 0px 20px 460px; */
 }
 
 .imp-feet {
@@ -93,7 +245,7 @@
   padding: 3px 2px;
   border-radius: 7px;
   border: 2px solid black;
-  width:55px;
+  width: 55px;
 }
 
 .icon-height {
@@ -103,12 +255,12 @@
 
 
 .imp-submit-button {
-  background-color: orange;
+  /* background-color: orange;
   border-radius: 4px;
   padding: 2px 10px 2px 10px;
   border: 1px solid orange;
   margin: 30px;
-  font-size: 1.5vw;
+  font-size: 1.5vw; */
   
 }
 
@@ -118,38 +270,38 @@
 }
 
 .met-weight {
-  margin: 40px 0px 20px 490px;
+  /* margin: 40px 0px 20px 490px;
   padding: 3px 2px;
   border-radius: 7px;
-  border: 2px solid black;
+  border: 2px solid black; */
 }
 
-.icon-weight-met {
+/* .icon-weight-met {
   padding: 225px
-}
+} */
 
 .met-height {
-  margin: 30px 0px 20px 490px;
+  /* margin: 30px 0px 20px 490px;
   padding: 3px 2px;
   border-radius: 7px;
-  border: 2px solid black;
+  border: 2px solid black; */
 }
 
-.icon-height-met {
+/* .icon-height-met {
   padding: 240px;
-}
+} */
 
 .icon-heart {
   padding: 205px;
 }
 
 .met-submit-button {
-  background-color: orange;
+  /* background-color: orange;
   border-radius: 4px;
   padding: 2px 10px 2px 10px;
   border: 1px solid orange;
   margin: 30px;
-  font-size: 1.5vw;
+  font-size: 1.5vw; */
 }
 
 .met-results-top {
@@ -183,9 +335,9 @@
   font-size: 1.75vw;
 }
 
-.reference {
+/* .reference {
   font-size: 1vw;
-}
+} */
 
 .heart-page {
   position: relative;
@@ -228,7 +380,7 @@
 
 
 
-footer {
+/* footer {
   margin: auto;
   display: flex;
   flex-shrink: 0;
@@ -267,7 +419,7 @@ footer a {
   padding: 10px 50px 10px 0px;
   width: 80%;
   height: 80%;
-}
+} */
 
 .skin-submit-button {
   background-color: orange;
@@ -384,9 +536,9 @@ header {
   background-color: rgb(111, 193, 193);
 }
 
-.home-header {
+/* .home-header {
   font-size: 7vw;
-}
+} */
 
 /* .home-main-body {
   font-size: 4.5vw;
@@ -531,42 +683,7 @@ header {
   padding: 10px;
 } */
 
-footer {
-  margin: auto;
-  display: flex;
-  flex-shrink: 0;
-  width: 100vw;
-  position: absolute;
-  bottom: 0;
-  align-items: flex-end;
-  justify-content: flex-end;
-  background-color: rgb(111, 193, 193);
-  padding: 0px;
-}
 
-footer a {
-  display: flex;
-  justify-content: flex-end;
-  width: 30px;
-}
-
-.link { 
-  display: flex;
-  justify-content: flex-end; 
-  padding: 10px 20px 10px 30px;
-  width: 50%;
-  height: 50%;
-} 
-
- .git { 
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;  
-  align-self: flex-end;
-  padding: 10px 20px 10px 0px;
-  width: 50%;
-  height: 50%;
-}
 
 
 }
