@@ -3,7 +3,7 @@ import whybmicss from './WhyBmi.module.css';
 
 export default function WhyBmi() {
   return (
-    <div classname={whybmicss.why}>
+    <div className={whybmicss.why}>
       <h2 className={whybmicss.header}>Why BMI?</h2>
       <div className="horizontal"></div>
       <br />
