@@ -6,14 +6,14 @@ export default function Navbar() {
     <header className={navcss.header}>
       <Link
         to="/">
-        <button className={navcss.nav_button}>Home</button>
+        <button className={navcss.nav_button}>Self Check</button>
       </Link>
-      <Link to='/results'>
+      {/* <Link to='/results'>
         <button className={navcss.nav_button}>My Results</button>
       </Link>
       <Link to='/resources'>
         <button className={navcss.nav_button}>More Resources</button>
-      </Link>
+      </Link> */}
     </header >
 
   );

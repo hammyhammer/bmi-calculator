@@ -20,7 +20,7 @@ export default function ResultsHeartRate() {
 
   return (
     <div>
-      <div className="met-results-top">
+      <div>
         <h2>Your RHR Results</h2>
         <div className="horizontal"></div>
         <br />

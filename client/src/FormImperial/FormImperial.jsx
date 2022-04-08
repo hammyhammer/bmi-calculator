@@ -14,7 +14,7 @@ export default function FormImperial(props) {
       <br />
       <form onSubmit={props.handleSubmit}>
         <input className={formimperialcss.imp_weight} id="weightImperial" value={weightImperial} type="number" placeholder="pounds" onChange={props.handleImperialInput} />
-        <label className="icon-weight">
+        <label className={formimperialcss.icon_weight}>
           <i className="fas fa-weight fa-3x"></i>
         </label>
         <br />
@@ -22,7 +22,7 @@ export default function FormImperial(props) {
         <div className={formimperialcss.foot_inch}>
           <input className={formimperialcss.imp_feet} id="heightFeet" value={heightFeet} type="number" placeholder="feet" onChange={props.handleImperialInput} />
           <input className={formimperialcss.imp_inches} id="heightInches" value={heightInches} type="number" placeholder="inches" onChange={props.handleImperialInput} />
-          <label className="icon-height">
+          <label className={formimperialcss.icon_height}>
             <i className="fas fa-ruler-vertical fa-3x"></i>
           </label>
         </div>

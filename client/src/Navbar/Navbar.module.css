@@ -1,12 +1,17 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: rgb(53, 201, 179);
-  padding: 11px 0px;
+  padding: 11px 80px;
   border-bottom: 4px solid rgb(0, 0, 255);
 }
 
 .nav_button {
   height: 30px;
   border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color:rgb(0, 0, 255);
+  font-weight: 900;
+  font-size: 2vw;
 }

@@ -30,7 +30,7 @@ export default function HeartRate() {
     }));
   };
   return (
-    <div className="heart-page">
+    <div>
       <h2 className={heartcss.header}>Resting Heart Rate</h2>
       <div className="horizontal"></div>
       <div className={heartcss.body}>
