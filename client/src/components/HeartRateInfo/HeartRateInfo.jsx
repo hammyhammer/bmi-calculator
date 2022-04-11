@@ -3,7 +3,7 @@ import heartinfocss from './HeartRateInfo.module.css'
 
 export default function HeartRateInfo() {
   return (
-    <div className="heart-info">
+    <div className={heartinfocss.whole}>
       <h2 className={heartinfocss.header}>Why Heart Rate?</h2>
       <div className="horizontal"></div>
       <br />
@@ -27,11 +27,13 @@ export default function HeartRateInfo() {
           Above Normal: Above 100 beats per minute<a className={heartinfocss.reference} href="https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute">[3]</a>.</p>
 
       </div>
-      <Link
-        to="/">
-        <button className={heartinfocss.info_button}>Return Home</button>
-      </Link>
-
+      <div className={heartinfocss.test}>
+        <Link
+          to="/">
+          <button className={heartinfocss.info_button}>Return Home</button>
+        </Link>
+      </div>
     </div>
+
   );
 };
