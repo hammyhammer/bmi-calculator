@@ -4,7 +4,10 @@ export default function Timer() {
   const [timer, setTimer] = useState(20);
 
   useEffect(() => {
-    timer > 0 && setTimeout(() => setTimer(timer - 1), 1000);
+    const interval = timer > 0 && setTimeout(() => setTimer(timer - 1), 1000);
+    return () => {
+      clearInterval(interval)
+    }
   }, [timer]);
 
   const resetTimer = () => {
