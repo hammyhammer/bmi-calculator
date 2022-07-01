@@ -36,9 +36,9 @@ export default function ResultsHeartRate() {
         <div className="horizontal"></div>
         <div className={heartresultscss.body}>
           <p>{sum.fields?.heartRisks}
-            {sum.fields?.heartCategory === 'Below Normal' ? <a className={heartresultscss.references} href="https://www.uofmhealth.org/health-library/aa107571">[1].</a> :
-              sum.fields?.heartCategory === "Normal" ? <a className={heartresultscss.references} href="https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.">[1].</a> :
-                <a className={heartresultscss.references} href="https://www.healthline.com/health/dangerous-heart-rate#dangerous-heart-rate">[1].</a>}
+            {sum.fields?.heartCategory === 'Below Normal' ? <a className={heartresultscss.references} href="https://www.uofmhealth.org/health-library/aa107571" target="_blank" rel="noopener noreferrer">[1].</a> :
+              sum.fields?.heartCategory === "Normal" ? <a className={heartresultscss.references} href="https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute." target="_blank" rel="noopener noreferrer">[1].</a> :
+                <a className={heartresultscss.references} href="https://www.healthline.com/health/dangerous-heart-rate#dangerous-heart-rate" target="_blank" rel="noopener noreferrer">[1].</a>}
           </p>
 
         </div>
