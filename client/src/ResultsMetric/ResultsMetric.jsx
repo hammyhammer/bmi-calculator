@@ -35,12 +35,12 @@ export default function ResultsPage() {
 
         <div className={metricresultscss.body}>
           <p>BMI is used as a screening tool. BMI is not intended to diagnose any illnesses
-            <a className={metricresultscss.reference} href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html">[1]</a>.</p>
+            <a className={metricresultscss.reference} href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html" target="_blank" rel="noopener noreferrer">[1]</a>.</p>
           <p>{sum.fields?.riskCategory}
-            {sum.fields?.categoryMetric === 'Underweight' ? <a className={metricresultscss.reference} href="https://www.healthline.com/health/underweight-health-risks#malnutrition">[2]</a> :
-              sum.fields?.categoryMetric === "Normal" ? <a className={metricresultscss.reference} href="https://www.aicr.org/resources/blog/a-normal-bmi-doesnt-mean-youre-healthy/">[2]</a> :
-                sum.fields?.categoryMetric === "Overweight" ? <a className={metricresultscss.reference} href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi#risks-of-being-overweight-high-bmi-and-physically-inactive">[2]</a> :
-                  <a className={metricresultscss.reference} href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences">[2]</a>}</p>
+            {sum.fields?.categoryMetric === 'Underweight' ? <a className={metricresultscss.reference} href="https://www.healthline.com/health/underweight-health-risks#malnutrition" target="_blank" rel="noopener noreferrer">[2]</a> :
+              sum.fields?.categoryMetric === "Normal" ? <a className={metricresultscss.reference} href="https://www.aicr.org/resources/blog/a-normal-bmi-doesnt-mean-youre-healthy/" target="_blank" rel="noopener noreferrer">[2]</a> :
+                sum.fields?.categoryMetric === "Overweight" ? <a className={metricresultscss.reference} href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi#risks-of-being-overweight-high-bmi-and-physically-inactive" target="_blank" rel="noopener noreferrer">[2]</a> :
+                  <a className={metricresultscss.reference} href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html#Consequences" target="_blank" rel="noopener noreferrer">[2]</a>}</p>
           <p>To gain more information or pursue action. Reach out to your healthcare provider for additional information.</p>
           <Link
             to="/why-bmi">
